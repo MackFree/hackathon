@@ -38,3 +38,5 @@ Tasks:
 Write rules out for interactions
 Game engine for graphics
 Writing the project
+
+python3 -m pip install -U pygame --user
