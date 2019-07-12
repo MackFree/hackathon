@@ -24,5 +24,6 @@ class Atom():
 
     def is_positive(self):
         """determines whether an atom is positively charged
-        Return: True if positive False otherwise"""
-        return iself.proton - self.neutron) > 0
+        Return: True if positive False otherwise
+        """
+        return (self.proton - self.neutron) > 0
