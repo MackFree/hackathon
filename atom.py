@@ -14,10 +14,15 @@ class Atom():
         self.electron = electron
         self.info = info
 
-    def combine(atoms):
+    def combine(self, atoms):
         """function handling what happens when 2 or more atoms
         are combined
 
         Return: new combined Atom object
         """
         pass
+
+    def is_positive(self):
+        """determines whether an atom is positively charged
+        Return: True if positive False otherwise"""
+        return iself.proton - self.neutron) > 0
