@@ -1,5 +1,3 @@
-Molecule creator
-
 SOI:
 We intend to make a educational peice of software for children in the chemistry classroom. The point of this software
 is to allow kids to play with elements and molecules to learn via experimentation what everyday substances are made of,
@@ -9,32 +7,3 @@ student adds two hydrogen atoms and one oxygen atom, and presses play, it will f
 vibrant and the software will be in the form of a two dimentional "game". This sofware will help the Science Education 
 department under the DSSM to help educate students.
 
-
-
-Challenges:
-Work out how atoms work
-
-Steps:
-
-Python language
-
-Class atom
--Proton #
--Neutrons #
--Electrons & electron shells
--Name
--Info pop up
-
-Game window
-Pop out menu of atoms
-simulating space
-info panel
-
-Graphics
-
-Find a new game engine
-
-Tasks:
-Write rules out for interactions
-Game engine for graphics
-Writing the project
