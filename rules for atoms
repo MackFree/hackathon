@@ -21,7 +21,9 @@ RULES FOR ATOMS:
 
 To make a molecules from some atoms, find the total number of valence electrons from the atoms. Find the atom with the lowest electronegativity - that is the central
 atom. Make bonds between each atom. Each bond uses two valence electrons, subtract that from the total. Use the remaining electrons to make sure each outside atom has
-8 electrons around, including the two from the bonds. Then add the rest of the electrons around the centre atom. Then take each 
+8 electrons around, including the two from the bonds. Then add the rest of the electrons around the centre atom. If the centre atom or the outside atoms have more or less
+than 8 electrons in their inner or outer shell, more electron pairs can be shared to make sure each atom has the correct amount of electron pairs. Next adjust bonds so that
+each atom's formal charge is minimised. Formula for the formal charge of an atom is: FC = # of valence electrons - # of bonds.
 
 - Two atoms can bond only if they can share electrons to make sure each atom has 8 electrons in its outer shell. Except for hydrogren, which
   has one electron and can only have one bond.
