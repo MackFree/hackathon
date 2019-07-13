@@ -2,3 +2,5 @@ Water
 Nitrogen monoxide
 Sulphur dioxide
 Nitrogen dioxide
+Magnesium peroxide
+Carbon dioxide
