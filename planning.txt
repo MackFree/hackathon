@@ -41,3 +41,9 @@ Game engine for graphics
 Writing the project
 
 python3 -m pip install -U pygame --user
+
+
+
+
+to fix:
+need to make info boxes not pop up out of the screen window
