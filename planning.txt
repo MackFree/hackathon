@@ -24,6 +24,7 @@ Class atom
 -Electrons & electron shells
 -Name
 -Info pop up
+-atoms need a pygame rect associated (using placeholder hitbox)
 
 Game window
 Pop out menu of atoms
