@@ -63,6 +63,9 @@ while 1:
         
         if event.type == pygame.MOUSEBUTTONUP:
             pos = pygame.mouse.get_pos()
+            if(simulation_rect.collidepoint(pos) and selected_atom is not None):
+                #we in the simulation rect
+                simulation_atoms.append(selected_atom)
             selected_atom = None
             #also need to place the atom in the simulator section
     
@@ -81,6 +84,9 @@ while 1:
     #now we draw an atom for each one in the array (Lets use a loop bc
     #fuck doing it induvidiall
     for atom in atom_array:
+        screen.blit(atom.image, atom.rect)
+    
+    for atom in simulation_atoms:
         screen.blit(atom.image, atom.rect)
     
     if selected_atom is not None:
