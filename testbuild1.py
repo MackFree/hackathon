@@ -153,8 +153,10 @@ while 1:
     
     #text for atom info
     if(atom_info_img is not None):
+        pos = pygame.mouse.get_pos()
         infoRect = atom_info_img.get_rect()
-        infoRect.center = pygame.mouse.get_pos()
+        infoRect.x = pos[0] - infoRect.width//2
+        infoRect.y = pos[1]
         screen.blit(atom_info_img, infoRect)
     
     
