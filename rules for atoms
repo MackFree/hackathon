@@ -16,27 +16,26 @@ can pull electrons away from other atoms. For example, Fluorine has an electrone
 table. This means that it can very strongly pull electrons away from other atoms. Because fluorine can pull electrons away, it can bond
 with a lot of elements. 
 
-
 RULES FOR ATOMS:
 
 To make a molecules from some atoms, find the total number of valence electrons from the atoms. Find the atom with the lowest electronegativity - that is the central
 atom. Make bonds between each atom. Each bond uses two valence electrons, subtract that from the total. Use the remaining electrons to make sure each outside atom has
 8 electrons around, including the two from the bonds. Then add the rest of the electrons around the centre atom. If the centre atom or the outside atoms have more or less
 than 8 electrons in their inner or outer shell, more electron pairs can be shared to make sure each atom has the correct amount of electron pairs. Next adjust bonds so that
-each atom's formal charge is minimised. Formula for the formal charge of an atom is: FC = # of valence electrons - # of bonds.
+each atom's formal charge is minimised. Formula for the formal charge of an atom is: FC = # of valence electrons - non-bonding valence electrons - # of bonding electrons / 2.
 
-- Two atoms can bond only if they can share electrons to make sure each atom has 8 electrons in its outer shell. Except for hydrogren, which
-  has one electron and can only have one bond.
-- When an atom shares its electrons due to a covalent bond, that means it can use the electrons shared by the other atom. For example, 
-  oxygen has 6 valence electrons, and it needs 2 more to get to 8 electrons. If it shares an electron with two hydrogens which have
-  one electron each, it will now have eight electrons and it is stable.
-- Typically the maximum number of bonds that an atom can have is equal to its valence electrons. 
-- If two atoms have a difference of electronegativity of 0.5 - 1.7, they will bond covalently (kind of strong). atoms will be near each other
-- If two atoms have a difference of electronegativity greater than 1.7, they will bond ionically (very strong). atoms will be very close to each other
-- If two atoms have a difference of electronegativity less than 0.5, they will bond non-covalently. not that far to each other.
-- In a molecule the atom with the lowest electronegativity will be in the centre (if more than 2 atoms). Hydrogens are always on the outside of the atom.
-  atoms have electron pairs. The number of electron pairs is determined by however many valence electrons that the molecule has.
+Exceptions:
 
+Beryllium (Be) and Boron (B) don't need an octet. BeCl2 and BCl3 are examples
+They only need 2 and 3 bonds to atoms respectively.
 
+Sulfur (S) and Phosphorous (P) can sometimes form 5 bonds e.g PCl5, 
+
+Free Radicals:
+
+If the total number of electrons are negative, we get a free radical. Subtract an electron
+from the total number of valence electrons, then add it later to make the formal charge of an atom 0.
+
+Turn into code ^^^. Need to add exceptions
 
 
