@@ -4,6 +4,7 @@ from atom import Atom
 
 # Initialise database
 DATABASE = set()
+COMBI_DESC = dict()
 
 #initialising game engine
 pygame.init()
@@ -80,6 +81,16 @@ element_text_rect = element_text_obj.get_rect()
 element_text_rect.x = 550
 element_text_rect.y = 45
 
+#molecule description
+font = pygame.font.Font('freesansbold.ttf', 18)
+element_desc_text = ""
+element_desc_obj = font.render(element_desc_text, True, black, white)
+element_desc_rect = element_desc_obj.get_rect()
+
+#molecule description loc
+element_desc_rect.x = 550
+element_desc_rect.y = 95
+
 #drawing the rectangles needed, atom selection screen and place screen
 selection_rect = pygame.Rect(0, 0, 525, 719)
 simulation_rect = pygame.Rect(525, 0, 755, 720)
@@ -142,15 +153,21 @@ atom_array.append(calcium)
 def read_database(db_file="database.txt"):
     with open(db_file, 'r') as f:
         for line in f:
-            DATABASE.add(line.rstrip())
+            combi, name, desc = line.rstrip().split(":")
+            DATABASE.add(combi)
+            COMBI_DESC[combi] = (name, desc)
 
 # checks if current combination of atoms are in the database
 # the database must first be populated with read_database() function
 def is_in_database(atom_combination):
     # sort the current atom combination by their name
     atom_sorted = ''.join([x.name for x in sorted(atom_combination)])
-    print(atom_sorted)
-    return atom_sorted in DATABASE
+    mol_name = ""
+    mol_desc = ""
+
+    if atom_sorted in DATABASE:
+        mol_name, mol_desc = COMBI_DESC[atom_sorted]
+    return (atom_sorted in DATABASE, mol_name, mol_desc)
 
 while 1:
     while game_state == 0:
@@ -218,15 +235,17 @@ while 1:
                 atom_info_img = None
                 if(combinebuttonrect.collidepoint(pos)):
                     #now we want to combine all the atoms
-                    in_database = is_in_database(simulation_atoms)
+                    in_database, mol_name, mol_desc = is_in_database(simulation_atoms)
                     if(in_database):
-                        element_name_text = "INSERT ELEMENT NAME HERE"
+                        element_name_text = mol_name
                     else:
                         element_name_text = "Sorry, this is not a compound"
+                    element_desc_text = mol_desc
                 
                 if(clearbuttonrect.collidepoint(pos)):
                     simulation_atoms = []
                     element_name_text = "Press Combine to see if you've made a compound"
+                    element_desc_text = ""
                 
                 if(menubuttonrect.collidepoint(pos)):
                     simulation_atoms = []
@@ -283,6 +302,10 @@ while 1:
         #text box shit
         element_text_obj = font.render(element_name_text, True, black, white)
         screen.blit(element_text_obj, element_text_rect)
+
+        #desc box
+        element_desc_obj = font.render(element_desc_text, True, black, white)
+        screen.blit(element_desc_obj, element_desc_rect)
         
         #making all redrawn things visible
         pygame.display.flip()
