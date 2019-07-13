@@ -1,5 +1,6 @@
 #imports
 import sys, pygame, copy
+import itertools
 from atom import Atom
 
 # Initialise database
@@ -10,7 +11,7 @@ COMBI_DESC = dict()
 pygame.init()
 
 #init game_state to menu
-#game state 0 = menu, 1 = game, 2 = help screen
+#game state 0 = menu, 1 = game, 2 = help screen, 3 high scores
 game_state = 0
 
 #setting the title
@@ -25,6 +26,7 @@ screen = pygame.display.set_mode(size)
 #colours in RGB
 white = 255, 255, 255
 black = 0, 0, 0
+title_color = 2, 117, 185
 
 #helpscreenimage
 helpscreenimage = pygame.image.load("assets/helpscreen.png")
@@ -39,6 +41,8 @@ combinebutton = pygame.image.load("assets/button/combinebutton.png")
 clearbutton = pygame.image.load("assets/button/clearbutton.png")
 backbutton = pygame.image.load("assets/button/backbutton.png")
 menubutton = pygame.image.load("assets/button/quittomenubutton.png")
+compoundbutton = pygame.image.load("assets/button/compoundsbutton.png")
+
 
 #button rects
 helpbuttonrect = helpbutton.get_rect()
@@ -48,12 +52,14 @@ combinebuttonrect = combinebutton.get_rect()
 clearbuttonrect = clearbutton.get_rect()
 backbuttonrect = backbutton.get_rect()
 menubuttonrect = menubutton.get_rect()
+compoundbuttonrect = compoundbutton.get_rect()
 
 
 #button locations
 helpbuttonrect.x = 560
 gobuttonrect.x = 560
 quitbuttonrect.x = 560
+compoundbuttonrect.x = 1120
 
 combinebuttonrect.x = 1050
 clearbuttonrect.x = 830
@@ -64,6 +70,7 @@ backbuttonrect.x = 560
 gobuttonrect.y = 200
 helpbuttonrect.y = 270
 quitbuttonrect.y = 340
+compoundbuttonrect.y = 560
 
 combinebuttonrect.y = 650
 clearbuttonrect.y = 650
@@ -72,7 +79,10 @@ menubuttonrect.y = 30
 backbuttonrect.y = 650
 
 #text
-font = pygame.font.Font('freesansbold.ttf', 20)
+font = pygame.font.Font('freesansbold.ttf', 13)
+fontbig = pygame.font.Font('freesansbold.ttf', 20)
+fonthuge = pygame.font.Font('freesansbold.ttf', 30)
+
 element_name_text = "Press Combine to see if you've made a compound"
 element_text_obj = font.render(element_name_text, True, black, white)
 element_text_rect = element_text_obj.get_rect()
@@ -82,9 +92,6 @@ element_text_rect.x = 550
 element_text_rect.y = 45
 
 #molecule description
-font = pygame.font.Font('freesansbold.ttf', 13)
-fontbig = pygame.font.Font('freesansbold.ttf', 20)
-
 element_desc_text = ""
 element_desc_obj = font.render(element_desc_text, True, black, white)
 element_desc_rect = element_desc_obj.get_rect()
@@ -92,6 +99,14 @@ element_desc_rect = element_desc_obj.get_rect()
 #molecule description loc
 element_desc_rect.x = 550
 element_desc_rect.y = 95
+
+#element box title
+element_box_title_obj = fonthuge.render("ELEMENTS!", True, black, white)
+element_box_title_rect = element_box_title_obj.get_rect()
+
+#locs
+element_box_title_rect.x = 155
+element_box_title_rect.y = 30
 
 #drawing the rectangles needed, atom selection screen and place screen
 selection_rect = pygame.Rect(0, 0, 525, 719)
@@ -155,9 +170,12 @@ atom_array.append(calcium)
 def read_database(db_file="database.txt"):
     with open(db_file, 'r') as f:
         for line in f:
-            combi, name, desc = line.rstrip().split(":")
-            DATABASE.add(combi)
-            COMBI_DESC[combi] = (name, desc)
+            try:
+                combi, name, desc = line.rstrip().split(":")
+                DATABASE.add(combi)
+                COMBI_DESC[combi] = (name, desc)
+            except:
+                pass
 
 # checks if current combination of atoms are in the database
 # the database must first be populated with read_database() function
@@ -170,6 +188,25 @@ def is_in_database(atom_combination):
     if atom_sorted in DATABASE:
         mol_name, mol_desc = COMBI_DESC[atom_sorted]
     return (atom_sorted in DATABASE, mol_name, mol_desc)
+
+def setup_bg(title=True):
+    # draw background image
+    bg_image = pygame.image.load("assets/bg.png")
+    img_w, img_h = bg_image.get_width(), bg_image.get_height()
+    for x, y in itertools.product(range(0, width+1, img_w),
+            range(0, height+1, img_h)):
+        screen.blit(bg_image, (x, y))
+
+    # draw title
+    if(title):
+        title_font = pygame.font.Font('freesansbold.ttf', 50)
+        title_obj = title_font.render("Chemical Creator", True, title_color)
+        title_rect = title_obj.get_rect(center=(width/2, 100))
+        screen.blit(title_obj, title_rect)
+
+        line_start = title_rect.left, title_rect.top + title_rect.height + 3
+        line_end = title_rect.left + title_rect.width, title_rect.top + title_rect.height + 3
+        pygame.draw.line(screen, title_color, line_start, line_end, 1)
 
 while 1:
     while game_state == 0:
@@ -186,13 +223,19 @@ while 1:
                 elif(helpbuttonrect.collidepoint(pos)):
                     #display help
                     game_state = 2
+                elif(compoundbuttonrect.collidepoint(pos)):
+                    #going to the high scores
+                    game_state = 3
         
         
         #drawring
-        screen.fill(white)
+
+        #screen.fill(white)
+        setup_bg()
         screen.blit(quitbutton, quitbuttonrect)
         screen.blit(gobutton, gobuttonrect)
         screen.blit(helpbutton, helpbuttonrect)
+        screen.blit(compoundbutton, compoundbuttonrect)
         
         #making everything visible
         pygame.display.flip()
@@ -260,6 +303,7 @@ while 1:
                     element_desc_text = ""
                 
                 if(menubuttonrect.collidepoint(pos)):
+                    element_name_text = "Press Combine to see if you've made a compound"
                     simulation_atoms = []
                     game_state = 0
                     
@@ -274,6 +318,8 @@ while 1:
         
         #re-drawring background
         screen.fill(white)    
+        
+        screen.blit(element_box_title_obj, element_box_title_rect)
         
         #drawring #needs to be from the bottom up 
         pygame.draw.rect(screen, black, selection_rect, 2)
@@ -343,4 +389,47 @@ while 1:
         screen.blit(backbutton, backbuttonrect)
         
         pygame.display.flip()
+    
+    #reading in the file for the list of elements
+    f = open("saves/madeelements.txt", "r+")
+    made_list = f.readlines()
+    txt_obj_list = []
+    start_y = 25
+    
+    for compound in made_list:
+        compound = compound.strip()
+        temp_txt_obj = fontbig.render('-' + compound, True, black, white)
+        temp_rect = temp_txt_obj.get_rect()
+        temp_rect.x = 560
+        temp_rect.y = start_y
+        txt_obj_list.append([temp_txt_obj, temp_rect])
+        start_y += 30
+    
+    while game_state == 3:
+        #this is the compounds made part
         
+        #exotomg
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT: pygame.quit()
+            
+            #checking if they want to exit
+            if(event.type == pygame.MOUSEBUTTONDOWN):
+                pos = pygame.mouse.get_pos()
+                if(backbuttonrect.collidepoint(pos)):
+                    #now we go back to gamestate 0
+                    game_state = 0
+            
+        screen.fill(white)
+        
+        setup_bg(False)
+        
+        for compound in txt_obj_list:
+            screen.blit(compound[0], compound[1])
+                
+        
+        screen.blit(backbutton, backbuttonrect)
+        
+        pygame.display.flip()
+    
+    #closing the file
+    f.close()
