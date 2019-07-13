@@ -1,0 +1,590 @@
+
+Getting combinations for 
+
+
+Getting combinations for actinium
+
+
+Getting combinations for aluminium
+
+Aluminium trihydride: AlH3
+Aluminium trifluoride: AlF3
+Dialuminium hexachloride: AlCl3
+Dialuminium hexabromide: [AlBr3]2
+Dialuminum hexaiodide: [AlI3]2
+Aluminium oxide (α) : Al2O3
+Dialuminium trisulphide: Al2S3
+Dialuminium triselenide: Al2Se3
+Dialuminium tritelluride: Al2Te3
+Aluminium nitride: AlN
+Aluminium trinitrate nonahydrate: Al(NO3)3.9H2O
+Dialuminium trisulphate octadecahydrate: Al2(SO4)3.18H2O
+Hexaaquoaluminium tribromide: [Al(OH2)6]Br3
+Hexaaquoaluminium trichloride: [Al(OH2)6]Cl3
+
+Getting combinations for aluminium
+
+Aluminium trihydride: AlH3
+Aluminium trifluoride: AlF3
+Dialuminium hexachloride: AlCl3
+Dialuminium hexabromide: [AlBr3]2
+Dialuminum hexaiodide: [AlI3]2
+Aluminium oxide (α) : Al2O3
+Dialuminium trisulphide: Al2S3
+Dialuminium triselenide: Al2Se3
+Dialuminium tritelluride: Al2Te3
+Aluminium nitride: AlN
+Aluminium trinitrate nonahydrate: Al(NO3)3.9H2O
+Dialuminium trisulphate octadecahydrate: Al2(SO4)3.18H2O
+Hexaaquoaluminium tribromide: [Al(OH2)6]Br3
+Hexaaquoaluminium trichloride: [Al(OH2)6]Cl3
+
+Getting combinations for americium
+
+
+Getting combinations for antimony
+
+
+Getting combinations for argon
+
+
+Getting combinations for arsenic
+
+
+Getting combinations for astatine
+
+
+Getting combinations for barium
+
+
+Getting combinations for berkelium
+
+
+Getting combinations for beryllium
+
+Beryllium dihydride: BeH2
+Beryllium difluoride: BeF2
+Beryllium dichloride: BeCl2
+Beryllium dibromide: BeBr2
+Beryllium diiodide: BeI2
+Beryllia: BeO
+Beryllium sulphide: BeS
+Beryllium selenide: BeSe
+Beryllium telluride: BeTe
+Triberyllium dinitride: Be3N2
+
+Getting combinations for bismuth
+
+
+Getting combinations for bohrium
+
+
+Getting combinations for boron
+
+Diborane (6): B2H6
+Decaborane (14): B10H14
+Hexaborane (10): B6H10
+Pentaborane (9): B5H9
+Pentaborane (11): B5H11
+Tetraborane (10): B4H10
+Boron trifluoride: BF3
+Diboron tetrafluoride: B2F4
+Boron trichloride: BCl3
+Diboron tetrachloride: B2Cl4
+Boron tribromide: BBr3
+Boron triiodide: BI3
+Diboron trioxide: B2O3
+Diboron trisulphide: B2S3
+Boron nitride: BN
+
+Getting combinations for bromine
+
+
+Getting combinations for cadmium
+
+
+Getting combinations for caesium
+
+
+Getting combinations for calcium
+
+Calcium dihydride: CaH2
+Calcium difluoride: CaF2
+Calcium dichloride: CaCl2
+Calcium diiodide: CaI2
+Calcium oxide: CaO
+Calcium peroxide: CaO2
+Calcium sulphide: CaS
+Calcium selenide: CaSe
+Calcium telluride: CaTe
+Tricalcium dinitride: Ca3N2
+Calcium dibromide hexahydrate: CaBr2.6H2O
+Calcium dichloride hexahydrate: CaCl2.6H2O
+
+Getting combinations for californium
+
+
+Getting combinations for carbon
+
+Carbon tetrafluoride: CF4
+Carbon tetrachloride: CCl4
+Carbon tetrabromide: CBr4
+Carbon tetraiodide: CI4
+Carbon dioxide: CO2
+Carbon monoxide: CO
+Carbon suboxide: C3O2
+Carbon disulphide: CS2
+Carbon diselenide: CSe2
+
+Getting combinations for cerium
+
+
+Getting combinations for caesium
+
+
+Getting combinations for chlorine
+
+Chlorine fluoride: ClF
+Chlorine trifluoride: ClF3
+Chlorine pentafluoride: ClF5
+Chlorine dioxide: ClO2
+Dichlorine oxide: Cl2O
+Dichlorine hexoxide: Cl2O6
+Dichlorine heptoxide: Cl2O7
+
+Getting combinations for chromium
+
+
+Getting combinations for cobalt
+
+
+Getting combinations for copernicium
+
+
+Getting combinations for copper
+
+
+Getting combinations for curium
+
+
+Getting combinations for darmstadtium
+
+
+Getting combinations for dubnium
+
+
+Getting combinations for dysprosium
+
+
+Getting combinations for einsteinium
+
+
+Getting combinations for erbium
+
+
+Getting combinations for europium
+
+
+Getting combinations for fermium
+
+
+Getting combinations for flerovium
+
+
+Getting combinations for fluorine
+
+
+Getting combinations for francium
+
+
+Getting combinations for gadolinium
+
+
+Getting combinations for gallium
+
+
+Getting combinations for germanium
+
+
+Getting combinations for gold
+
+
+Getting combinations for hafnium
+
+
+Getting combinations for hassium
+
+
+Getting combinations for helium
+
+
+Getting combinations for holmium
+
+
+Getting combinations for hydrogen
+
+Hydrogen fluoride: HF
+Hydrogen chloride: HCl
+Hydrogen bromide: HBr
+Hydrogen iodide: HI
+Water: H2O
+Hydrogen persulphide: H2S2
+Hydrogen sulphide: H2S
+Hydrogen selenide: H2Se
+Hydrogen telluride: H2Te
+Ammonia: NH3
+Hydrazine: H2NNH2
+
+Getting combinations for indium
+
+
+Getting combinations for iodine
+
+
+Getting combinations for iridium
+
+
+Getting combinations for iron
+
+
+Getting combinations for krypton
+
+
+Getting combinations for lanthanum
+
+
+Getting combinations for lawrencium
+
+
+Getting combinations for lead
+
+
+Getting combinations for lithium
+
+Lithium hydride: LiH
+Lithium fluoride: LiF
+Lithium chloride: LiCl
+Lithium chloride monohydrate: LiCl.H2O
+Lithium iodide: LiI
+Dilithium oxide: Li2O
+Dilithium peroxide: Li2O2
+Lithium superoxide: LiO2
+Lithium sulphide: Li2S
+Dilithium selenide: Li2Se
+Dilithium telluride: Li2Te
+Trilithium nitride: Li3N
+Lithium iodide trihydrate: LiI.3H2O
+Lithium hydroxide monohydrate: LiOH.H2O
+
+Getting combinations for livermorium
+
+
+Getting combinations for lutetium
+
+
+Getting combinations for magnesium
+
+Magnesium dihydride: MgH2
+Magnesium difluoride: MgF2
+Magnesium dichloride: MgCl2
+Magnesium diiodide: MgI2
+Magnesium oxide: MgO
+Magnesium peroxide: MgO2
+Magnesium sulphide: MgS
+Magnesium selenide: MgSe
+Magnesium telluride: MgTe
+Trimagnesium dinitride: Mg3N2
+Magnesium dibromide hexahydrate: MgBr2.6H2O
+Magnesium nitrate hexahydrate: Mg(NO3)2.6H2O
+Magnesium sulphate heptahydrate: MgSO4.7H2O
+
+Getting combinations for manganese
+
+
+Getting combinations for meitnerium
+
+
+Getting combinations for mendelevium
+
+
+Getting combinations for mercury
+
+
+Getting combinations for molybdenum
+
+
+Getting combinations for moscovium
+
+
+Getting combinations for neodymium
+
+
+Getting combinations for neon
+
+
+Getting combinations for neptunium
+
+
+Getting combinations for nickel
+
+
+Getting combinations for nihonium
+
+
+Getting combinations for niobium
+
+
+Getting combinations for nitrogen
+
+Nitrogen trifluoride: NF3
+Dinitrogen tetrafluoride: N2F4
+cis-difluorodiazine: N2F2
+trans-difluorodiazine: N2F2
+Nitrogen trichloride: NCl3
+Nitrogen triiodide: NI3
+Nitrous oxide: N2O
+Nitrogen dioxide: NO2
+Nitrogen monoxide: NO
+Dinitrogen trioxide: N2O3
+Dinitrogen tetraoxide: N2O4
+Dinitrogen pentoxide: N2O5
+
+Getting combinations for nobelium
+
+
+Getting combinations for oganesson
+
+
+Getting combinations for osmium
+
+
+Getting combinations for oxygen
+
+Oxygen difluoride: OF2
+
+Getting combinations for palladium
+
+
+Getting combinations for phosphorus
+
+Phosphine: PH3
+Diphosphorus tetrahydride: P2H4
+Phosphorus trifluoride: PF3
+Phosphorus pentafluoride: PF5
+Diphosphorus tetrafluoride: P2F4
+Phosphorus trichloride: PCl3
+Phosphorus pentachloride: PCl5
+Diphosphorus tetrachloride: P2Cl4
+Phosphorus pentabromide: PBr5
+Diphosphorus tetrabromide: P2Br4
+Phosphorus triiodide: PI3
+Diphosphorus tetraiodide: P2I4
+Tetraphosphorus decaoxide: P4O10
+Tetraphosphorus hexaoxide: P4O6
+Tetraphosphorus trisulphide: P4S3
+Tetraphosphorus decasulphide: P4S10
+Tetraphosphorus hexasulphide: P4S6
+Tetraphosphorus nonasulphide: P4S9
+Tetraphosphorus pentasulphide (alpha): P4S5
+Tetraphosphorus heptasulphide: P4S7
+Tetraphosphorus tetrasulphide: P4S4
+Tetraphosphorus triselenide: P4Se3
+
+Getting combinations for platinum
+
+
+Getting combinations for plutonium
+
+
+Getting combinations for polonium
+
+
+Getting combinations for potassium
+
+Potassium hydride: KH
+Potassium fluoride: KF
+Potassium chloride: KCl
+Potassium iodide: KI
+Dipotassium oxide: K2O
+Potassium superoxide: KO2
+Dipotassium peroxide: K2O2
+Dipotassium sulphide: K2S
+Dipotassium disulphide: K2S2
+Dipotassium hexasulphide: K2S6
+Dipotassium trisulphide: K2S3
+Dipotassium pentasulphide: K2S5
+Dipotassium tetrasulphide: K2S4
+Dipotassium selenide: K2Se
+Dipotassium telluride: K2Te
+
+Getting combinations for praseodymium
+
+
+Getting combinations for promethium
+
+
+Getting combinations for protactinium
+
+
+Getting combinations for radium
+
+
+Getting combinations for radon
+
+
+Getting combinations for rhenium
+
+
+Getting combinations for rhodium
+
+
+Getting combinations for roentgenium
+
+
+Getting combinations for rubidium
+
+
+Getting combinations for ruthenium
+
+
+Getting combinations for rutherfordium
+
+
+Getting combinations for samarium
+
+
+Getting combinations for scandium
+
+
+Getting combinations for seaborgium
+
+
+Getting combinations for selenium
+
+
+Getting combinations for silicon
+
+Silane: SiH4
+Disilicon hexahydride: Si2H6
+Silicon tetrafluoride: SiF4
+Silicon tetrachloride: SiCl4
+Silicon tetraiodide: SiI4
+Silicon oxide : SiO2
+Silicon sulphide: SiS2
+Trisilicon tetranitride: Si3N4
+
+Getting combinations for silver
+
+
+Getting combinations for sodium
+
+Sodium hydride: NaH
+Sodium fluoride: NaF
+Sodium chloride: NaCl
+Sodium iodide: NaI
+Disodium oxide: Na2O
+Sodium peroxide: Na2O2
+Sodium superoxide: NaO2
+Disodium sulphide: Na2S
+Disodium persulphide: Na2S2
+Disodium trisulphide: Na2S3
+Disodium hexasulphide: Na2S6
+Disodium tetrasulphide: Na2S4
+Disodium pentasulphide: Na2S5
+Disodium sulphide pentahydrate: Na2S.5H2O
+Disodium sulphide nonahydrate: Na2S.9H2O
+Disodium selenide: Na2Se
+Disodium telluride: Na2Te
+
+Getting combinations for strontium
+
+
+Getting combinations for sulfur
+
+Sulphur difluoride: SF2
+Disulphur difluoride: FSSF
+Sulphur hexafluoride: SF6
+Sulphur tetrafluoride: SF4
+Disulphur decafluoride: S2F10
+Sulphur difluoride sulphide: SSF2
+Sulphur dichloride: SCl2
+Disulphur dichloride: ClSSCl
+Trisulphur dichloride: S3Cl2
+Sulphur tetrachloride: SCl4
+Disulphur diiodide: S2I2
+Sulphur dioxide: SO2
+Sulphur trioxide: SO3
+Disulphur oxide: S2O
+Tetrasulphur tetranitride: S4N4
+
+Getting combinations for sulfur
+
+Sulphur difluoride: SF2
+Disulphur difluoride: FSSF
+Sulphur hexafluoride: SF6
+Sulphur tetrafluoride: SF4
+Disulphur decafluoride: S2F10
+Sulphur difluoride sulphide: SSF2
+Sulphur dichloride: SCl2
+Disulphur dichloride: ClSSCl
+Trisulphur dichloride: S3Cl2
+Sulphur tetrachloride: SCl4
+Disulphur diiodide: S2I2
+Sulphur dioxide: SO2
+Sulphur trioxide: SO3
+Disulphur oxide: S2O
+Tetrasulphur tetranitride: S4N4
+
+Getting combinations for tantalum
+
+
+Getting combinations for technetium
+
+
+Getting combinations for tellurium
+
+
+Getting combinations for tennessine
+
+
+Getting combinations for terbium
+
+
+Getting combinations for thallium
+
+
+Getting combinations for thorium
+
+
+Getting combinations for thulium
+
+
+Getting combinations for tin
+
+
+Getting combinations for titanium
+
+
+Getting combinations for tungsten
+
+
+Getting combinations for uranium
+
+
+Getting combinations for vanadium
+
+
+Getting combinations for xenon
+
+
+Getting combinations for ytterbium
+
+
+Getting combinations for yttrium
+
+
+Getting combinations for zinc
+
+
+Getting combinations for zirconium
+
