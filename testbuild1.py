@@ -5,19 +5,25 @@ from atom import Atom
 #initialising game engine
 pygame.init()
 
+#setting the title
+pygame.display.set_caption("Learn About Elements!")
+
 #setting size of window
 size = width, height = 1280, 720
 screen = pygame.display.set_mode(size)
 
 #resources inits go here
 
+#font
+font = pygame.font.Font('freesansbold.ttf', 13) 
+
 #colours in RGB
 white = 255, 255, 255
 black = 0, 0, 0
 
 #drawing the rectangles needed, atom selection screen and place screen
-selection_rect = pygame.Rect(0, 0, 500, 719)
-simulation_rect = pygame.Rect(500, 0, 780, 720)
+selection_rect = pygame.Rect(0, 0, 525, 719)
+simulation_rect = pygame.Rect(525, 0, 755, 720)
 
 #array that will hold all atoms Possible
 atom_array = []
@@ -26,28 +32,30 @@ selected_atom = None
 #list of atoms in the simulation
 simulation_atoms = []
 
+#text atom
+atom_text = None
 
 #creating atoms
 hydrogen    = Atom("Hydrogen", 1, 1, 1, "assets/img/hydrogen-small.png", "assets/desc/hydrogen.txt")
 helium      = Atom("Helium", 2, 2, 2, "assets/img/helium-small.png", "assets/desc/helium.txt")
-lithium     = Atom("lithium".title(), 3, 4, 3, "assets/img/lithium-small.png", "assets/img/lithium.txt")
-beryllium   = Atom("beryllium".title(), 4, 5, 4, "assets/img/beryllium-small.png", "assets/img/beryllium.txt")
-boron       = Atom("boron".title(), 5, 6, 5, "assets/img/boron-small.png", "assets/img/boron.txt")
-carbon      = Atom("carbon".title(), 6, 6, 6, "assets/img/carbon-small.png", "assets/img/carbon.txt")
-nitrogen    = Atom("nitrogen".title(), 7, 7, 7, "assets/img/nitrogen-small.png", "assets/img/nitrogen.txt")
-oxygen      = Atom("oxygen".title(), 8, 8, 8, "assets/img/oxygen-small.png", "assets/img/oxygen.txt")
-fluorine    = Atom("fluorine".title(), 9, 10, 9, "assets/img/flourine-small.png", "assets/img/flourine.txt")
-neon        = Atom("neon".title(), 10, 10, 10, "assets/img/neon-small.png", "assets/img/neon.txt")
-sodium      = Atom("sodium".title(), 11, 12, 11, "assets/img/sodium-small.png", "assets/img/sodium.txt")
-magnesium   = Atom("magnesium".title(), 12, 12, 12, "assets/img/magnesium-small.png", "assets/img/magnesium.txt")
-aluminium   = Atom("aluminium".title(), 13, 14, 13, "assets/img/aluminium-small.png", "assets/img/aluminium.txt")
-silicon     = Atom("silicon".title(), 14, 14, 14, "assets/img/silicon-small.png", "assets/img/silicon.txt")
-phosphorus  = Atom("phosphorus".title(), 15, 16, 15, "assets/img/phosphorus-small.png", "assets/img/phosphorus.txt")
-sulfur      = Atom("sulfur".title(), 16, 16, 16, "assets/img/sulfur-small.png", "assets/img/sulfur.txt")
-chlorine    = Atom("chlorine".title(), 17, 18, 17, "assets/img/chlorine-small.png", "assets/img/chlorine.txt")
-argon       = Atom("argon".title(), 18, 22, 18, "assets/img/argon-small.png", "assets/img/argon.txt")
-potassium   = Atom("potassium".title(), 19, 20, 19, "assets/img/potassium-small.png", "assets/img/potassium.txt")
-calcium     = Atom("calcium".title(), 20, 20, 20, "assets/img/calcium-small.png", "assets/img/calcium.txt")
+lithium     = Atom("lithium".title(), 3, 4, 3, "assets/img/lithium-small.png", "assets/desc/lithium.txt")
+beryllium   = Atom("beryllium".title(), 4, 5, 4, "assets/img/beryllium-small.png", "assets/desc/beryllium.txt")
+boron       = Atom("boron".title(), 5, 6, 5, "assets/img/boron-small.png", "assets/desc/boron.txt")
+carbon      = Atom("carbon".title(), 6, 6, 6, "assets/img/carbon-small.png", "assets/desc/carbon.txt")
+nitrogen    = Atom("nitrogen".title(), 7, 7, 7, "assets/img/nitrogen-small.png", "assets/desc/nitrogen.txt")
+oxygen      = Atom("oxygen".title(), 8, 8, 8, "assets/img/oxygen-small.png", "assets/desc/oxygen.txt")
+fluorine    = Atom("fluorine".title(), 9, 10, 9, "assets/img/flourine-small.png", "assets/desc/flourine.txt")
+neon        = Atom("neon".title(), 10, 10, 10, "assets/img/neon-small.png", "assets/desc/neon.txt")
+sodium      = Atom("sodium".title(), 11, 12, 11, "assets/img/sodium-small.png", "assets/desc/sodium.txt")
+magnesium   = Atom("magnesium".title(), 12, 12, 12, "assets/img/magnesium-small.png", "assets/desc/magnesium.txt")
+aluminium   = Atom("aluminium".title(), 13, 14, 13, "assets/img/aluminium-small.png", "assets/desc/aluminium.txt")
+silicon     = Atom("silicon".title(), 14, 14, 14, "assets/img/silicon-small.png", "assets/desc/silicon.txt")
+phosphorus  = Atom("phosphorus".title(), 15, 16, 15, "assets/img/phosphorus-small.png", "assets/desc/phosphorus.txt")
+sulfur      = Atom("sulfur".title(), 16, 16, 16, "assets/img/sulfur-small.png", "assets/desc/sulfur.txt")
+chlorine    = Atom("chlorine".title(), 17, 18, 17, "assets/img/chlorine-small.png", "assets/desc/chlorine.txt")
+argon       = Atom("argon".title(), 18, 22, 18, "assets/img/argon-small.png", "assets/desc/argon.txt")
+potassium   = Atom("potassium".title(), 19, 20, 19, "assets/img/potassium-small.png", "assets/desc/potassium.txt")
+calcium     = Atom("calcium".title(), 20, 20, 20, "assets/img/calcium-small.png", "assets/desc/calcium.txt")
 
 #adding atoms to atom_array
 atom_array.append(hydrogen)
@@ -81,6 +89,7 @@ while 1:
         #mousebutton down event
         if event.type == pygame.MOUSEBUTTONDOWN:
             #getting the position
+            print(event.button)
             pos = pygame.mouse.get_pos()
             #now we need to check which atom it is clicked on
             if(selection_rect.collidepoint(pos)):
@@ -88,10 +97,13 @@ while 1:
                 for atom in atom_array:
                     #compare mousepos and atom circle pos
                     if(atom.rect.collidepoint(pos)):
-                        #find atom type and create new instance 
-                        #need atom constructor ect
-                        selected_atom = Atom(atom.name, atom.proton, atom.neutron, atom.electron, atom.image_loc, atom.info_loc)
-                
+                        if(event.button == 1):
+                            #find atom type and create new instance 
+                            #need atom constructor ect
+                            selected_atom = Atom(atom.name, atom.proton, atom.neutron, atom.electron, atom.image_loc, atom.info_loc)
+                        elif(event.button == 3):
+                            #now we gotta uhh disp text
+                            atom_text = atom.info
             if(simulation_rect.collidepoint(pos)):
                 print("Sim")
         
@@ -102,6 +114,7 @@ while 1:
                 #we in the simulation rect
                 simulation_atoms.append(selected_atom)
             selected_atom = None
+            atom_text = None
             #also need to place the atom in the simulator section
     
     #moving selected atom with the mouse
@@ -109,6 +122,8 @@ while 1:
         pos = pygame.mouse.get_pos()
         selected_atom.rect.x = pos[0] - (selected_atom.rect.width/2)
         selected_atom.rect.y = pos[1] - (selected_atom.rect.width/2)
+    
+    
     
     #re-drawring background
     screen.fill(white)    
@@ -119,7 +134,7 @@ while 1:
     #now we draw an atom for each one in the array (Lets use a loop bc
     #fuck doing it induvidiall
     draw_pos_x = 25
-    draw_pos_y = 25
+    draw_pos_y = 70
     for atom in atom_array:
         atom.rect.x = draw_pos_x
         atom.rect.y = draw_pos_y
@@ -135,6 +150,14 @@ while 1:
     
     if selected_atom is not None:
         screen.blit(selected_atom.image, selected_atom.rect)    
+    
+    #text for atom info
+    if(atom_text is not None):
+        text = font.render(atom_text, True, black, white)
+        textRect = text.get_rect()
+        textRect.center = pygame.mouse.get_pos()
+        screen.blit(text, textRect)
+    
     
     #making all redrawn things visible
     pygame.display.flip()
