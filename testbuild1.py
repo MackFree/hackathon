@@ -6,7 +6,7 @@ from atom import Atom
 pygame.init()
 
 #setting size of window
-size = width, height = 720, 480
+size = width, height = 1280, 720
 screen = pygame.display.set_mode(size)
 
 #resources inits go here
@@ -16,8 +16,8 @@ white = 255, 255, 255
 black = 0, 0, 0
 
 #drawing the rectangles needed, atom selection screen and place screen
-selection_rect = pygame.Rect(0, 0, 300, 479)
-simulation_rect = pygame.Rect(300, 0, 420, 480)
+selection_rect = pygame.Rect(0, 0, 500, 719)
+simulation_rect = pygame.Rect(500, 0, 780, 720)
 
 #array that will hold all atoms Possible
 atom_array = []
@@ -28,13 +28,13 @@ simulation_atoms = []
 
 
 #creating atoms
-hydrogen = Atom("Hydrogen", 1, 1, 1, "assets/img/hydrogen.png", "assets/desc/hydrogen.txt")
+hydrogen = Atom("Hydrogen", 1, 1, 1, "assets/img/hydrogen-small.png", "assets/desc/hydrogen.txt")
+helium = Atom("Helium", 2, 2, 2, "assets/img/helium-small.png", "assets/desc/helium.txt")
 
-hydrogen.rect.x = 2
-hydrogen.rect.y = 2
+
 #adding atoms to atom_array
 atom_array.append(hydrogen)
-
+atom_array.append(helium)
 
 #game loop
 while 1:
@@ -83,8 +83,17 @@ while 1:
     
     #now we draw an atom for each one in the array (Lets use a loop bc
     #fuck doing it induvidiall
+    draw_pos_x = 25
+    draw_pos_y = 25
     for atom in atom_array:
+        atom.rect.x = draw_pos_x
+        atom.rect.y = draw_pos_y
         screen.blit(atom.image, atom.rect)
+        if(draw_pos_x != 400):
+            draw_pos_x += 125
+        else:
+            draw_pos_x = 25
+            draw_pos_y += 125
     
     for atom in simulation_atoms:
         screen.blit(atom.image, atom.rect)
