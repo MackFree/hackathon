@@ -2,6 +2,9 @@
 import sys, pygame, copy
 from atom import Atom
 
+# Initialise database
+DATABASE = set()
+
 #initialising game engine
 pygame.init()
 
@@ -78,6 +81,19 @@ atom_array.append(chlorine)
 atom_array.append(argon)
 atom_array.append(potassium)
 atom_array.append(calcium)
+
+# reads the database file and load it to the program
+def read_database(db_file="database.txt"):
+    with open(db_file, 'r') as f:
+        for line in f:
+            DATABASE.add(line.rstrip())
+
+# checks if current combination of atoms are in the database
+# the database must first be populated with read_database() function
+def is_in_database(atom_combination):
+    # sort the current atom combination by their name
+    atom_sorted = ''.join([x.name for x in sorted(atom_combination)])
+    return atom_sorted in DATABASE
 
 #game loop
 while 1:

@@ -16,11 +16,11 @@ class Atom():
         self.info_loc = info_loc
         try:
             self.info = pygame.image.load(info_loc)
-        except FileNotFoundError as e:
+        except pygame.error as e:
             self.info = ""
         try:
             self.image = pygame.image.load(image_loc)
-        except FileNotFoundError as e:
+        except pygame.error as e:
             self.image = pygame.image.load("assets/img/oxygen.png")
         self.rect = self.image.get_rect()
 
@@ -37,3 +37,9 @@ class Atom():
         Return: True if positive False otherwise
         """
         return (self.proton - self.neutron) > 0
+
+    def __lt__(self, other):
+        """decides whether another atom is "less" than this atom
+        comparison is done alphabetically on their name
+        """
+        return self.name < other.name
