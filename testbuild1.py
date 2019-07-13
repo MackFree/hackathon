@@ -82,7 +82,9 @@ element_text_rect.x = 550
 element_text_rect.y = 45
 
 #molecule description
-font = pygame.font.Font('freesansbold.ttf', 18)
+font = pygame.font.Font('freesansbold.ttf', 13)
+fontbig = pygame.font.Font('freesansbold.ttf', 20)
+
 element_desc_text = ""
 element_desc_obj = font.render(element_desc_text, True, black, white)
 element_desc_rect = element_desc_obj.get_rect()
@@ -238,6 +240,16 @@ while 1:
                     in_database, mol_name, mol_desc = is_in_database(simulation_atoms)
                     if(in_database):
                         element_name_text = mol_name
+                        #this is where we need to save the Compound to a file
+                        sav_file = open("saves/madeelements.txt", 'r+')
+                        sav_list = sav_file.readlines()
+                        print(sav_list)
+                        print(mol_name + '\n')
+                        if(mol_name + '\n' not in sav_list):
+                            sav_file.close()
+                            sav_file = open("saves/madeelements.txt", 'a')
+                            sav_file.write(mol_name + '\n')
+                        sav_file.close()
                     else:
                         element_name_text = "Sorry, this is not a compound"
                     element_desc_text = mol_desc
@@ -300,7 +312,7 @@ while 1:
         screen.blit(menubutton, menubuttonrect)
         
         #text box shit
-        element_text_obj = font.render(element_name_text, True, black, white)
+        element_text_obj = fontbig.render(element_name_text, True, black, white)
         screen.blit(element_text_obj, element_text_rect)
 
         #desc box
@@ -324,6 +336,7 @@ while 1:
                 if(backbuttonrect.collidepoint(pos)):
                     #now we go back to gamestate 0
                     game_state = 0
+            
         
         screen.fill(black)
         screen.blit(helpscreenimage, helpscreenimagerect)
