@@ -14,8 +14,14 @@ class Atom():
         self.electron = electron
         self.image_loc = image_loc
         self.info_loc = info_loc
-        self.info = open(info_loc, "r").read()
-        self.image = pygame.image.load(image_loc)
+        try:
+            self.info = open(info_loc, "r").read()
+        except FileNotFoundError as e:
+            self.info = ""
+        try:
+            self.image = pygame.image.load(image_loc)
+        except FileNotFoundError as e:
+            self.image = pygame.image.load("assets/img/oxygen.png")
         self.rect = self.image.get_rect()
 
     def combine(self, atoms):
