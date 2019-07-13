@@ -22,8 +22,6 @@ while 1:
             #getting the position
             pos = pygame.mouse.get_pos()
             if(ballrect.collidepoint(pos)):
-                #because the fuggin thing is taken from the top corner
-                #we need the second part of the equation
                 is_clicked = True
         if(event.type == pygame.MOUSEBUTTONUP):
             is_clicked = False
@@ -31,6 +29,8 @@ while 1:
     ballrect = ballrect.move(speed)
     if(is_clicked):
         pos = pygame.mouse.get_pos()
+        #because the fuggin thing is taken from the top corner
+        #we need the second part of the equation        
         ballrect.x = pos[0] - (ballrect.width/2)
         ballrect.y = pos[1] - (ballrect.width/2)
     else:
