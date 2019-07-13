@@ -1,8 +1,7 @@
-Silane: SiH4
-Disilicon hexahydride: Si2H6
-Silicon tetrafluoride: SiF4
-Silicon tetrachloride: SiCl4
-Silicon tetraiodide: SiI4
-Silicon oxide : SiO2
-Silicon sulphide: SiS2
-Trisilicon tetranitride: Si3N4
+Silicon Hydrogen Hydrogen Hydrogen Hydrogen 
+Silicon Silicon Hydrogen Hydrogen Hydrogen Hydrogen Hydrogen Hydrogen 
+Silicon Fluorine Fluorine Fluorine Fluorine 
+Silicon Chlorine Chlorine Chlorine Chlorine 
+Silicon Oxygen Oxygen
+Silicon Sulfur Sulfur
+Silicon Silicon Silicon Nitrogen Nitrogen Nitrogen Nitrogen 

@@ -1,15 +1,12 @@
-Potassium hydride: KH
-Potassium fluoride: KF
-Potassium chloride: KCl
-Potassium iodide: KI
-Dipotassium oxide: K2O
-Potassium superoxide: KO2
-Dipotassium peroxide: K2O2
-Dipotassium sulphide: K2S
-Dipotassium disulphide: K2S2
-Dipotassium hexasulphide: K2S6
-Dipotassium trisulphide: K2S3
-Dipotassium pentasulphide: K2S5
-Dipotassium tetrasulphide: K2S4
-Dipotassium selenide: K2Se
-Dipotassium telluride: K2Te
+Potassium Hydrogen
+Potassium Fluorine
+Potassium Chlorine
+Potassium Potassium Oxygen
+Potassium Oxygen Oxygen
+Potassium Potassium Oxygen Oxygen
+Potassium Potassium Sulfur
+Potassium Potassium Sulfur Sulfur
+Potassium Potassium Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur
+Potassium Potassium Sulfur Sulfur Sulfur
+Potassium Potassium Sulfur Sulfur Sulfur Sulfur Sulfur
+Potassium Potassium Sulfur Sulfur Sulfur Sulfur

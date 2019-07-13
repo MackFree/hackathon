@@ -1,22 +1,17 @@
-Phosphine: PH3
-Diphosphorus tetrahydride: P2H4
-Phosphorus trifluoride: PF3
-Phosphorus pentafluoride: PF5
-Diphosphorus tetrafluoride: P2F4
-Phosphorus trichloride: PCl3
-Phosphorus pentachloride: PCl5
-Diphosphorus tetrachloride: P2Cl4
-Phosphorus pentabromide: PBr5
-Diphosphorus tetrabromide: P2Br4
-Phosphorus triiodide: PI3
-Diphosphorus tetraiodide: P2I4
-Tetraphosphorus decaoxide: P4O10
-Tetraphosphorus hexaoxide: P4O6
-Tetraphosphorus trisulphide: P4S3
-Tetraphosphorus decasulphide: P4S10
-Tetraphosphorus hexasulphide: P4S6
-Tetraphosphorus nonasulphide: P4S9
-Tetraphosphorus pentasulphide (alpha): P4S5
-Tetraphosphorus heptasulphide: P4S7
-Tetraphosphorus tetrasulphide: P4S4
-Tetraphosphorus triselenide: P4Se3
+Phosphorus Hydrogen Hydrogen Hydrogen
+Phosphorus Phosphorus Hydrogen Hydrogen Hydrogen Hydrogen 
+Phosphorus Fluorine Fluorine Fluorine
+Phosphorus Fluorine Fluorine Fluorine Fluorine Fluorine
+Phosphorus Phosphorus Fluorine Fluorine Fluorine Fluorine
+Phosphorus Chlorine Chlorine Chlorine
+Phosphorus Chlorine Chlorine Chlorine Chlorine Chlorine
+Phosphorus Phosphorus Chlorine Chlorine Chlorine Chlorine
+Phosphorus Phosphorus Phosphorus Phosphorus Oxygen Oxygen Oxygen Oxygen Oxygen Oxygen Oxygen Oxygen Oxygen Oxygen 
+Phosphorus Phosphorus Phosphorus Phosphorus Oxygen Oxygen Oxygen Oxygen Oxygen Oxygen 
+Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur
+Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur
+Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur 
+Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur 
+Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur Sulfur Sulfur 
+Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur
+Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur Sulfur
