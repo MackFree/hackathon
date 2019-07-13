@@ -10,7 +10,7 @@ COMBI_DESC = dict()
 pygame.init()
 
 #init game_state to menu
-#game state 0 = menu, 1 = game, 2 = help screen
+#game state 0 = menu, 1 = game, 2 = help screen, 3 high scores
 game_state = 0
 
 #setting the title
@@ -39,6 +39,8 @@ combinebutton = pygame.image.load("assets/button/combinebutton.png")
 clearbutton = pygame.image.load("assets/button/clearbutton.png")
 backbutton = pygame.image.load("assets/button/backbutton.png")
 menubutton = pygame.image.load("assets/button/quittomenubutton.png")
+compoundbutton = pygame.image.load("assets/button/compoundsbutton.png")
+
 
 #button rects
 helpbuttonrect = helpbutton.get_rect()
@@ -48,12 +50,14 @@ combinebuttonrect = combinebutton.get_rect()
 clearbuttonrect = clearbutton.get_rect()
 backbuttonrect = backbutton.get_rect()
 menubuttonrect = menubutton.get_rect()
+compoundbuttonrect = compoundbutton.get_rect()
 
 
 #button locations
 helpbuttonrect.x = 560
 gobuttonrect.x = 560
 quitbuttonrect.x = 560
+compoundbuttonrect.x = 1120
 
 combinebuttonrect.x = 1050
 clearbuttonrect.x = 830
@@ -64,6 +68,7 @@ backbuttonrect.x = 560
 gobuttonrect.y = 200
 helpbuttonrect.y = 270
 quitbuttonrect.y = 340
+compoundbuttonrect.y = 560
 
 combinebuttonrect.y = 650
 clearbuttonrect.y = 650
@@ -155,9 +160,12 @@ atom_array.append(calcium)
 def read_database(db_file="database.txt"):
     with open(db_file, 'r') as f:
         for line in f:
-            combi, name, desc = line.rstrip().split(":")
-            DATABASE.add(combi)
-            COMBI_DESC[combi] = (name, desc)
+            try:
+                combi, name, desc = line.rstrip().split(":")
+                DATABASE.add(combi)
+                COMBI_DESC[combi] = (name, desc)
+            except:
+                pass
 
 # checks if current combination of atoms are in the database
 # the database must first be populated with read_database() function
@@ -186,6 +194,9 @@ while 1:
                 elif(helpbuttonrect.collidepoint(pos)):
                     #display help
                     game_state = 2
+                elif(compoundbuttonrect.collidepoint(pos)):
+                    #going to the high scores
+                    game_state = 3
         
         
         #drawring
@@ -193,6 +204,7 @@ while 1:
         screen.blit(quitbutton, quitbuttonrect)
         screen.blit(gobutton, gobuttonrect)
         screen.blit(helpbutton, helpbuttonrect)
+        screen.blit(compoundbutton, compoundbuttonrect)
         
         #making everything visible
         pygame.display.flip()
@@ -343,4 +355,45 @@ while 1:
         screen.blit(backbutton, backbuttonrect)
         
         pygame.display.flip()
+    
+    #reading in the file for the list of elements
+    f = open("saves/madeelements.txt", "r+")
+    made_list = f.readlines()
+    txt_obj_list = []
+    start_y = 10
+    
+    for compound in made_list:
+        compound = compound.strip()
+        temp_txt_obj = fontbig.render(compound, True, black, white)
+        temp_rect = temp_txt_obj.get_rect()
+        temp_rect.x = 560
+        temp_rect.y = start_y
+        txt_obj_list.append([temp_txt_obj, temp_rect])
+        start_y += 30
+    
+    while game_state == 3:
+        #this is the compounds made part
         
+        #exotomg
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT: pygame.quit()
+            
+            #checking if they want to exit
+            if(event.type == pygame.MOUSEBUTTONDOWN):
+                pos = pygame.mouse.get_pos()
+                if(backbuttonrect.collidepoint(pos)):
+                    #now we go back to gamestate 0
+                    game_state = 0
+            
+        screen.fill(white)
+        
+        for compound in txt_obj_list:
+            screen.blit(compound[0], compound[1])
+                
+        
+        screen.blit(backbutton, backbuttonrect)
+        
+        pygame.display.flip()
+    
+    #closing the file
+    f.close()
