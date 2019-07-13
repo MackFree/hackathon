@@ -28,9 +28,26 @@ simulation_atoms = []
 
 
 #creating atoms
-hydrogen = Atom("Hydrogen", 1, 1, 1, "assets/img/hydrogen-small.png", "assets/desc/hydrogen.txt")
-helium = Atom("Helium", 2, 2, 2, "assets/img/helium-small.png", "assets/desc/helium.txt")
-
+hydrogen    = Atom("Hydrogen", 1, 1, 1, "assets/img/hydrogen-small.png", "assets/desc/hydrogen.txt")
+helium      = Atom("Helium", 2, 2, 2, "assets/img/helium-small.png", "assets/desc/helium.txt")
+lithium     = Atom("lithium".title(), 3, 4, 3, "assets/img/lithium.png", "assets/img/lithium.txt")
+beryllium   = Atom("beryllium".title(), 4, 5, 4, "assets/img/beryllium.png", "assets/img/beryllium.txt")
+boron       = Atom("boron".title(), 5, 6, 5, "assets/img/boron.png", "assets/img/boron.txt")
+carbon      = Atom("carbon".title(), 6, 6, 6, "assets/img/carbon.png", "assets/img/carbon.txt")
+nitrogen    = Atom("nitrogen".title(), 7, 7, 7, "assets/img/nitrogen.png", "assets/img/nitrogen.txt")
+oxygen      = Atom("oxygen".title(), 8, 8, 8, "assets/img/oxygen.png", "assets/img/oxygen.txt")
+fluorine    = Atom("fluorine".title(), 9, 10, 9, "assets/img/flourine.png", "assets/img/flourine.txt")
+neon        = Atom("neon".title(), 10, 10, 10, "assets/img/neon.png", "assets/img/neon.txt")
+natrium     = Atom("natrium".title(), 11, 12, 11, "assets/img/natrium.png", "assets/img/natrium.txt")
+magnesium   = Atom("magnesium".title(), 12, 12, 12, "assets/img/magnesium.png", "assets/img/magnesium.txt")
+aluminium   = Atom("aluminium".title(), 13, 14, 13, "assets/img/aluminium.png", "assets/img/aluminium.txt")
+silicon     = Atom("silicon".title(), 14, 14, 14, "assets/img/silicon.png", "assets/img/silicon.txt")
+phosphorus  = Atom("phosphorus".title(), 15, 16, 15, "assets/img/phosphorus.png", "assets/img/phosphorus.txt")
+sulfur      = Atom("sulfur".title(), 16, 16, 16, "assets/img/sulfur.png", "assets/img/sulfur.txt")
+chlorine    = Atom("chlorine".title(), 17, 18, 17, "assets/img/chlorine.png", "assets/img/chlorine.txt")
+argon       = Atom("argon".title(), 18, 22, 18, "assets/img/argon.png", "assets/img/argon.txt")
+kalium      = Atom("kalium".title(), 19, 20, 19, "assets/img/kalium.png", "assets/img/kalium.txt")
+calcium     = Atom("calcium".title(), 20, 20, 20, "assets/img/calcium.png", "assets/img/calcium.txt")
 
 #adding atoms to atom_array
 atom_array.append(hydrogen)
