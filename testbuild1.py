@@ -33,29 +33,29 @@ selected_atom = None
 simulation_atoms = []
 
 #text atom
-atom_text = None
+atom_info_img = None
 
 #creating atoms
-hydrogen    = Atom("Hydrogen", 1, 1, 1, "assets/img/hydrogen-small.png", "assets/desc/hydrogen.txt")
-helium      = Atom("Helium", 2, 2, 2, "assets/img/helium-small.png", "assets/desc/helium.txt")
-lithium     = Atom("lithium".title(), 3, 4, 3, "assets/img/lithium-small.png", "assets/desc/lithium.txt")
-beryllium   = Atom("beryllium".title(), 4, 5, 4, "assets/img/beryllium-small.png", "assets/desc/beryllium.txt")
-boron       = Atom("boron".title(), 5, 6, 5, "assets/img/boron-small.png", "assets/desc/boron.txt")
-carbon      = Atom("carbon".title(), 6, 6, 6, "assets/img/carbon-small.png", "assets/desc/carbon.txt")
-nitrogen    = Atom("nitrogen".title(), 7, 7, 7, "assets/img/nitrogen-small.png", "assets/desc/nitrogen.txt")
-oxygen      = Atom("oxygen".title(), 8, 8, 8, "assets/img/oxygen-small.png", "assets/desc/oxygen.txt")
-fluorine    = Atom("fluorine".title(), 9, 10, 9, "assets/img/flourine-small.png", "assets/desc/flourine.txt")
-neon        = Atom("neon".title(), 10, 10, 10, "assets/img/neon-small.png", "assets/desc/neon.txt")
-sodium      = Atom("sodium".title(), 11, 12, 11, "assets/img/sodium-small.png", "assets/desc/sodium.txt")
-magnesium   = Atom("magnesium".title(), 12, 12, 12, "assets/img/magnesium-small.png", "assets/desc/magnesium.txt")
-aluminium   = Atom("aluminium".title(), 13, 14, 13, "assets/img/aluminium-small.png", "assets/desc/aluminium.txt")
-silicon     = Atom("silicon".title(), 14, 14, 14, "assets/img/silicon-small.png", "assets/desc/silicon.txt")
-phosphorus  = Atom("phosphorus".title(), 15, 16, 15, "assets/img/phosphorus-small.png", "assets/desc/phosphorus.txt")
-sulfur      = Atom("sulfur".title(), 16, 16, 16, "assets/img/sulfur-small.png", "assets/desc/sulfur.txt")
-chlorine    = Atom("chlorine".title(), 17, 18, 17, "assets/img/chlorine-small.png", "assets/desc/chlorine.txt")
-argon       = Atom("argon".title(), 18, 22, 18, "assets/img/argon-small.png", "assets/desc/argon.txt")
-potassium   = Atom("potassium".title(), 19, 20, 19, "assets/img/potassium-small.png", "assets/desc/potassium.txt")
-calcium     = Atom("calcium".title(), 20, 20, 20, "assets/img/calcium-small.png", "assets/desc/calcium.txt")
+hydrogen    = Atom("Hydrogen", 1, 1, 1, "assets/img/hydrogen-small.png", "assets/desc/images/hydrogen.png")
+helium      = Atom("Helium", 2, 2, 2, "assets/img/helium-small.png", "assets/desc/images/helium.png")
+lithium     = Atom("lithium".title(), 3, 4, 3, "assets/img/lithium-small.png", "assets/desc/images/lithium.png")
+beryllium   = Atom("beryllium".title(), 4, 5, 4, "assets/img/beryllium-small.png", "assets/desc/images/beryllium.png")
+boron       = Atom("boron".title(), 5, 6, 5, "assets/img/boron-small.png", "assets/desc/images/boron.png")
+carbon      = Atom("carbon".title(), 6, 6, 6, "assets/img/carbon-small.png", "assets/desc/images/carbon.png")
+nitrogen    = Atom("nitrogen".title(), 7, 7, 7, "assets/img/nitrogen-small.png", "assets/desc/images/nitrogen.png")
+oxygen      = Atom("oxygen".title(), 8, 8, 8, "assets/img/oxygen-small.png", "assets/desc/images/oxygen.png")
+fluorine    = Atom("fluorine".title(), 9, 10, 9, "assets/img/flourine-small.png", "assets/desc/images/fluorine.png")
+neon        = Atom("neon".title(), 10, 10, 10, "assets/img/neon-small.png", "assets/desc/images/neon.png")
+sodium      = Atom("sodium".title(), 11, 12, 11, "assets/img/sodium-small.png", "assets/desc/images/sodium.png")
+magnesium   = Atom("magnesium".title(), 12, 12, 12, "assets/img/magnesium-small.png", "assets/desc/images/magnesium.png")
+aluminium   = Atom("aluminium".title(), 13, 14, 13, "assets/img/aluminium-small.png", "assets/desc/images/aluminium.png")
+silicon     = Atom("silicon".title(), 14, 14, 14, "assets/img/silicon-small.png", "assets/desc/images/silicon.png")
+phosphorus  = Atom("phosphorus".title(), 15, 16, 15, "assets/img/phosphorus-small.png", "assets/desc/images/phosphorus.png")
+sulfur      = Atom("sulfur".title(), 16, 16, 16, "assets/img/sulfur-small.png", "assets/desc/images/sulfur.png")
+chlorine    = Atom("chlorine".title(), 17, 18, 17, "assets/img/chlorine-small.png", "assets/desc/images/chlorine.png")
+argon       = Atom("argon".title(), 18, 22, 18, "assets/img/argon-small.png", "assets/desc/images/argon.png")
+potassium   = Atom("potassium".title(), 19, 20, 19, "assets/img/potassium-small.png", "assets/desc/images/potassium.png")
+calcium     = Atom("calcium".title(), 20, 20, 20, "assets/img/calcium-small.png", "assets/desc/images/calcium.png")
 
 #adding atoms to atom_array
 atom_array.append(hydrogen)
@@ -103,7 +103,7 @@ while 1:
                             selected_atom = Atom(atom.name, atom.proton, atom.neutron, atom.electron, atom.image_loc, atom.info_loc)
                         elif(event.button == 3):
                             #now we gotta uhh disp text
-                            atom_text = atom.info
+                            atom_info_img = atom.info
             if(simulation_rect.collidepoint(pos)):
                 print("Sim")
         
@@ -114,7 +114,7 @@ while 1:
                 #we in the simulation rect
                 simulation_atoms.append(selected_atom)
             selected_atom = None
-            atom_text = None
+            atom_info_img = None
             #also need to place the atom in the simulator section
     
     #moving selected atom with the mouse
@@ -152,11 +152,10 @@ while 1:
         screen.blit(selected_atom.image, selected_atom.rect)    
     
     #text for atom info
-    if(atom_text is not None):
-        text = font.render(atom_text, True, black, white)
-        textRect = text.get_rect()
-        textRect.center = pygame.mouse.get_pos()
-        screen.blit(text, textRect)
+    if(atom_info_img is not None):
+        infoRect = atom_info_img.get_rect()
+        infoRect.center = pygame.mouse.get_pos()
+        screen.blit(atom_info_img, infoRect)
     
     
     #making all redrawn things visible

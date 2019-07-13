@@ -15,7 +15,7 @@ class Atom():
         self.image_loc = image_loc
         self.info_loc = info_loc
         try:
-            self.info = open(info_loc, "r").read()
+            self.info = pygame.image.load(info_loc)
         except FileNotFoundError as e:
             self.info = ""
         try:
