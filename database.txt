@@ -38,37 +38,36 @@ ChlorineChlorineChlorineNitrogen:Nitrogen trichloride:
 ChlorineChlorineChlorinePhosphorus:Phosphorus trichloride:
 ChlorineChlorineMagnesium:Magnesium chloride:Magnesium chloride has many uses including dust and erosion control, ice control, and medicine.
 ChlorineChlorineOxygen:Oxygen dichloride:
-ChlorineChlorineOxygenOxygenOxygenOxygenOxygenOxygen
-ChlorineChlorineOxygenOxygenOxygenOxygenOxygenOxygenOxygen
+ChlorineChlorineOxygenOxygenOxygenOxygenOxygenOxygen:Dichlorine hexoxide:
+ChlorineChlorineOxygenOxygenOxygenOxygenOxygenOxygenOxygen:Dichlorine heptoxide:
 ChlorineChlorineSulfur:Sulfur dichloride:
 ChlorineChlorineSulfurSulfur
 ChlorineChlorineSulfurSulfurSulfur
-ChlorineFluorine
-ChlorineFluorineFluorineFluorine
-ChlorineFluorineFluorineFluorineFluorineFluorine
-ChlorineHydrogen
-ChlorineLithium
-ChlorineOxygenOxygen
-ChlorinePotassium
-ChlorineSodium
-FluorineFluorineFluorineFluorineFluorineFluorineFluorineFluorineFluorineFluorineSulfurSulfur
-FluorineFluorineFluorineFluorineFluorineFluorineSulfur
-FluorineFluorineFluorineFluorineFluorinePhosphorus
-FluorineFluorineFluorineFluorineNitrogenNitrogen
-FluorineFluorineFluorineFluorinePhosphorusPhosphorus
-FluorineFluorineFluorineFluorineSilicon
-FluorineFluorineFluorineFluorineSulfur
-FluorineFluorineFluorineNitrogen
-FluorineFluorineFluorinePhosphorus
-FluorineFluorineMagnesium
-FluorineFluorineNitrogenNitrogen
-FluorineFluorineOxygen
-FluorineFluorineSulfur
-FluorineFluorineSulfurSulfur
-FluorineHydrogen
-FluorineLithium
-FluorinePotassium
-FluorineSodium
+ChlorineFluorine:Chlorine fluoride:
+ChlorineFluorineFluorineFluorine:Chlorine trifluoride:
+ChlorineFluorineFluorineFluorineFluorineFluorine:Chlorine pentafluoride:
+ChlorineHydrogen:Hydrochloric acid:Hydrochloric acid is an incredibly useful acid that has been used for production of both organic and inorganic compounds.
+ChlorineLithium:Lithium Chloride:
+ChlorineOxygenOxygen:Chlorine dioxide:
+ChlorinePotassium:Potassium chloride:
+ChlorineSodium:Sodium chloride:Common table salt.
+FluorineFluorineFluorineFluorineFluorineFluorineSulfur:Sulfur hexafluoride:
+FluorineFluorineFluorineFluorineFluorinePhosphorus:Phosphorus pentafluoride:
+FluorineFluorineFluorineFluorineNitrogenNitrogen:Nitrogen tetrafluoride:
+FluorineFluorineFluorineFluorinePhosphorusPhosphorus:Phosphorus tetrafluoride:
+FluorineFluorineFluorineFluorineSilicon:Silicon tetrafluoride:This is a common material used in the production of certain fertilizers.
+FluorineFluorineFluorineFluorineSulfur:Sulfur tetrafluoride:
+FluorineFluorineFluorineNitrogen:Nitrogen trifluoride:Nitrogen fluoride is a greenhouse gas that has also seen use in some chemical lasers.
+FluorineFluorineFluorinePhosphorus:Phosphorus trifluoride:A very toxic gas.
+FluorineFluorineMagnesium:Magnesium fluoride:This chemical has seen a lot of use in optics such as windows, lenses and prisms.
+FluorineFluorineNitrogenNitrogen:Dinitrogen difluoride:
+FluorineFluorineOxygen:Oxygen difluoride:Oxygen difluoride is a strong oxidising agent, which has made it suitable for use as fuel in jet propulsion systems.
+FluorineFluorineSulfur:Sulfur difluoride:
+FluorineFluorineSulfurSulfur:Disulfur difluoride:
+FluorineHydrogen:Hydrofluoric acid:A common acid, used commonly to speed up other chemical proccesses in refinerires.
+FluorineLithium:Lithium fluoride:Lithium fluoride is used often in radiation detectors. It can also occur naturally in the extremely rare mineral griceite.
+FluorinePotassium:Potassium fluoride:
+FluorineSodium:Sodium fluoride:Sodium fluoride is an inorganic compound used commonly in medicine.
 HydrogenHydrogenHydrogenHydrogenHydrogenHydrogenSiliconSilicon:Disilicon hexahydride:Reacts violently with oxidizers and halogens. May form explosive mixtures with air
 HydrogenHydrogenHydrogenHydrogenNitrogenNitrogen:Hydrazine:Exhibit antidepressant properties
 HydrogenHydrogenHydrogenHydrogenSilicon:Silane:Used as a precursor to elemental silicon in the semiconductor industry

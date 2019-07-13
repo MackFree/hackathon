@@ -1,5 +1,6 @@
 #imports
 import sys, pygame, copy
+import itertools
 from atom import Atom
 
 # Initialise database
@@ -25,6 +26,7 @@ screen = pygame.display.set_mode(size)
 #colours in RGB
 white = 255, 255, 255
 black = 0, 0, 0
+title_color = 2, 117, 185
 
 #helpscreenimage
 helpscreenimage = pygame.image.load("assets/helpscreen.png")
@@ -179,6 +181,24 @@ def is_in_database(atom_combination):
         mol_name, mol_desc = COMBI_DESC[atom_sorted]
     return (atom_sorted in DATABASE, mol_name, mol_desc)
 
+def setup_bg():
+    # draw background image
+    bg_image = pygame.image.load("assets/bg.png")
+    img_w, img_h = bg_image.get_width(), bg_image.get_height()
+    for x, y in itertools.product(range(0, width+1, img_w),
+            range(0, height+1, img_h)):
+        screen.blit(bg_image, (x, y))
+
+    # draw title
+    title_font = pygame.font.Font('freesansbold.ttf', 50)
+    title_obj = title_font.render("Chemical Creator", True, title_color)
+    title_rect = title_obj.get_rect(center=(width/2, 100))
+    screen.blit(title_obj, title_rect)
+
+    line_start = title_rect.left, title_rect.top + title_rect.height + 3
+    line_end = title_rect.left + title_rect.width, title_rect.top + title_rect.height + 3
+    pygame.draw.line(screen, title_color, line_start, line_end, 1)
+
 while 1:
     while game_state == 0:
         for event in pygame.event.get():
@@ -200,7 +220,9 @@ while 1:
         
         
         #drawring
-        screen.fill(white)
+
+        #screen.fill(white)
+        setup_bg()
         screen.blit(quitbutton, quitbuttonrect)
         screen.blit(gobutton, gobuttonrect)
         screen.blit(helpbutton, helpbuttonrect)
