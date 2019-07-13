@@ -38,7 +38,7 @@ nitrogen    = Atom("nitrogen".title(), 7, 7, 7, "assets/img/nitrogen.png", "asse
 oxygen      = Atom("oxygen".title(), 8, 8, 8, "assets/img/oxygen.png", "assets/img/oxygen.txt")
 fluorine    = Atom("fluorine".title(), 9, 10, 9, "assets/img/flourine.png", "assets/img/flourine.txt")
 neon        = Atom("neon".title(), 10, 10, 10, "assets/img/neon.png", "assets/img/neon.txt")
-natrium     = Atom("natrium".title(), 11, 12, 11, "assets/img/natrium.png", "assets/img/natrium.txt")
+sodium     = Atom("sodium".title(), 11, 12, 11, "assets/img/sodium.png", "assets/img/sodium.txt")
 magnesium   = Atom("magnesium".title(), 12, 12, 12, "assets/img/magnesium.png", "assets/img/magnesium.txt")
 aluminium   = Atom("aluminium".title(), 13, 14, 13, "assets/img/aluminium.png", "assets/img/aluminium.txt")
 silicon     = Atom("silicon".title(), 14, 14, 14, "assets/img/silicon.png", "assets/img/silicon.txt")
@@ -46,7 +46,7 @@ phosphorus  = Atom("phosphorus".title(), 15, 16, 15, "assets/img/phosphorus.png"
 sulfur      = Atom("sulfur".title(), 16, 16, 16, "assets/img/sulfur.png", "assets/img/sulfur.txt")
 chlorine    = Atom("chlorine".title(), 17, 18, 17, "assets/img/chlorine.png", "assets/img/chlorine.txt")
 argon       = Atom("argon".title(), 18, 22, 18, "assets/img/argon.png", "assets/img/argon.txt")
-kalium      = Atom("kalium".title(), 19, 20, 19, "assets/img/kalium.png", "assets/img/kalium.txt")
+potassium      = Atom("potassium".title(), 19, 20, 19, "assets/img/potassium.png", "assets/img/potassium.txt")
 calcium     = Atom("calcium".title(), 20, 20, 20, "assets/img/calcium.png", "assets/img/calcium.txt")
 
 #adding atoms to atom_array
