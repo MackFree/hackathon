@@ -183,7 +183,7 @@ def setup_bg():
 
     # draw title
     title_font = pygame.font.Font('freesansbold.ttf', 50)
-    title_obj = title_font.render("11/10 would buy again", True, title_color)
+    title_obj = title_font.render("Chemical Creator", True, title_color)
     title_rect = title_obj.get_rect(center=(width/2, 100))
     screen.blit(title_obj, title_rect)
 
