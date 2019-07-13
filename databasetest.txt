@@ -1,0 +1,53 @@
+HydrogenHydrogenHydrogenHydrogenHydrogenHydrogenSiliconSilicon:Disilicon hexahydride:Reacts violently with oxidizers and halogens. May form explosive mixtures with air
+HydrogenHydrogenHydrogenHydrogenNitrogenNitrogen:Hydrazine:Exhibit antidepressant properties
+HydrogenHydrogenHydrogenHydrogenSilicon:Silane:Used as a precursor to elemental silicon in the semiconductor industry
+HydrogenHydrogenHydrogenNitrogen:Ammonia:Used mostly as fertilisers
+HydrogenHydrogenHydrogenPhosphorus:Phosphine:Mostly used in textiles
+HydrogenHydrogenMagnesium:Magnesium dihydride:
+HydrogenHydrogenPhosphorusPhosphorusPhosphorusPhosphorus:Diphosphorus tetrahydride:
+HydrogenHydrogenSulfur:Hydrogen sulphide:Useful in paper making process
+HydrogenHydrogenSulfurSulfur:Hydrogen persulphide:
+HydrogenLithium:Lithium hydride:Sometimes is a desirable material for shielding nuclear reactors
+HydrogenHydrogenOxygen:Water:Covers most of earth, plays an important role for most living organisms
+HydrogenPotassium:Potassium hydride:One of the materials to make crayons
+HydrogenSodium:Sodium hydride:
+LithiumLithiumOxygenOxygen:Dilithium peroxide:Used in spacecraft to absorb carbon dioxide
+LithiumLithiumLithiumNitrogen:Trilithium nitride:One of the materials to produce fertilisers
+LithiumOxygenOxygen:Dilithium oxide:Used as a flux in ceramic glazes; and creates blues with copper and pinks with cobalt
+LithiumLithiumSulfur:Lithium sulphide:
+MagnesiumMagnesiumMagnesiumNitrogenNitrogen:Trimagnesium dinitride:
+MagnesiumOxygen:Magnesium oxide:Used for relief of heartburn
+MagnesiumOxygenOxygen:Magnesium peroxide:Used to reduce contaminant levels in groundwater
+MagnesiumSulfur:Magnesium sulphide:
+NitrogenNitrogenNitrogenNitrogenSiliconSiliconSilicon:Trisilicon tetranitride:
+NitrogenNitrogenOxygen:Nitrogen dioxide:Used as an anaesthetic drug 
+NitrogenNitrogenOxygenOxygenOxygen:Dinitrogen trioxide:
+NitrogenNitrogenOxygenOxygenOxygenOxygen:Dinitrogen tetroxide:Used as an oxidizer in one of the most important rocket propellants
+NitrogenNitrogenOxygenOxygenOxygenOxygenOxygen:Dinitrogen pentoxide:
+NitrogenOxygen:Nitrogen monoxide:a key vertebrate biological messenger, playing a role in a variety of biological processes
+NitrogenOxygenOxygen:Nitrogen dioxide:Used in manufacturing of chemical explosives
+OxygenOxygenOxygenSulfur:Sulphur trioxide:An essential reagent in sulfonation reactions. These processes afford detergents, dyes, and pharmaceuticals
+OxygenOxygenPotassium:Potassium superoxide:Used in canisters for rebreathers for fire fighting and mine rescue work
+OxygenOxygenPotassiumPotassium:Dipotassium peroxide:
+OxygenOxygenSilicon:Silicon oxide:Used to production of concrete
+OxygenOxygenSodium:Sodium Dioxide:
+OxygenOxygenSodiumSodium:Sodium peroxide:Used to bleach wood pulp for the production of paper and textiles
+OxygenOxygenSulfur:Sulphur dioxide:Sometimes used as a preservative for dried apricots, dried figs, and other dried fruits
+OxygenPotassiumPotassium:Dipotassium oxide:Used in cement formulas and glassmaking
+OxygenSodiumSodium:Disodium oxide:A significant component of glasses and windows
+OxygenSulfurSulfur:Disulphur oxide:
+PhosphorusPhosphorusPhosphorusPhosphorusSulfurSulfurSulfur:Tetraphosphorus trisulphide:
+PhosphorusPhosphorusPhosphorusPhosphorusSulfurSulfurSulfurSulfur:Tetraphosphorus tetrasulphide:
+PotassiumPotassiumSulfur:Dipotassium sulphide:formed when black powder in fireworks is burned and are important intermediates in many pyrotechnic effects, such as senko hanabi and some glitter formulations.
+PotassiumPotassiumSulfurSulfur:Dipotassium disulphide:
+PotassiumPotassiumSulfurSulfurSulfur:Dipotassium trisulphide:
+PotassiumPotassiumSulfurSulfurSulfurSulfur:Dipotassium tetrasulphide:
+PotassiumPotassiumSulfurSulfurSulfurSulfurSulfur:Dipotassium pentasulphide:
+PotassiumPotassiumSulfurSulfurSulfurSulfurSulfurSulfur:Dipotassium hexasulphide:
+SiliconSulfurSulfur:Silicon sulphide:
+SodiumSodiumSulfur:Disodium sulphide:
+SodiumSodiumSulfurSulfur:Disodium disulphide:
+SodiumSodiumSulfurSulfurSulfur:Disodium trisulphide:
+SodiumSodiumSulfurSulfurSulfurSulfur:Disodium tetrasulphide:
+SodiumSodiumSulfurSulfurSulfurSulfurSulfur:Disodium pentasulphide:
+SodiumSodiumSulfurSulfurSulfurSulfurSulfurSulfur:Sodium hexasulphide:

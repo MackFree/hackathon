@@ -1,75 +1,73 @@
-AluminiumAluminiumOxygenOxygenOxygen
-AluminiumAluminiumSulfurSulfurSulfur
-AluminiumChlorineChlorineChlorine
-AluminiumFluorineFluorine
-AluminiumHydrogenHydrogenHydrogen
-AluminiumNitrogen
-BerylliumBerylliumBerylliumNitrogenNitrogen
-BerylliumChlorineChlorine
-BerylliumFluorineFluorine
-BerylliumHydrogenHydrogen
-BerylliumOxygen
-BerylliumSulfur
-BoronBoronChlorineChlorineChlorineChlorine
-BoronBoronFluorineFluorine
-BoronBoronHydrogenHydrogenHydrogenHydrogen
-BoronBoronOxygenOxygenOxygen
-BoronBoronSulfurSulfurSulfur
-BoronChlorineChlorineChlorine
-BoronFluorineFluorineFluorine
-BoronNitrogen
-CalciumCalciumCalciumNitrogenNitrogen
-CalciumChlorineChlorine
-CalciumFluorineFluorine
-CalciumHydrogenHydrogen
-CalciumOxygen
-CalciumOxygenOxygen
-CalciumSulfur
-CarbonCarbonCarbonOxygenOxygen
-CarbonChlorineChlorineChlorineChlorine
-CarbonFluorineFluorineFluorineFluorine
-CarbonOxygen
-CarbonOxygenOxygen
-CarbonSulfurSulfur
-ChlorineChlorineChlorineChlorineChlorinePhosphorus
-ChlorineChlorineChlorineChlorinePhosphorusPhosphorus
-ChlorineChlorineChlorineChlorineSilicon
-ChlorineChlorineChlorineChlorineSulfur
-ChlorineChlorineChlorineNitrogen
-ChlorineChlorineChlorinePhosphorus
-ChlorineChlorineMagnesium
-ChlorineChlorineOxygen
-ChlorineChlorineOxygenOxygenOxygenOxygenOxygenOxygen
-ChlorineChlorineOxygenOxygenOxygenOxygenOxygenOxygenOxygen
-ChlorineChlorineSulfur
+AluminiumAluminiumOxygenOxygenOxygen:Aluminium oxide:Aluminium oxide is a common ingredient in sunscreen and is sometimes also present in cosmetics such as blush, lipstick, and nail polish. 
+AluminiumAluminiumSulfurSulfurSulfur:Aluminium sulfide:Aluminium sulfide is sometimes used as a cost-effective way to produce Hydrogen sulfide, which has many uses in other reactions. 
+AluminiumChlorineChlorineChlorine:Aluminium chloride:Aluminium chloride is often used as a 'catalyst' in many chemical reactions. Catalysts are compounds that speed up other chemical reactions.
+AluminiumFluorineFluorineFluoride:Aluminium fluoride:Aluminium fluoride is used commonly in reactions to obtain pure Aluminium.
+AluminiumHydrogenHydrogenHydrogen:Aluminium hydride:Aluminium hydride is frequently used in producing organic compounds. Organic compounds are made primarily of carbon.
+AluminiumNitrogen:Aluminium nitride:Aluminium nitride is 'piezoelectric', which means it can produce a small electrical charge when it is squeezed. 
+BerylliumBerylliumBerylliumNitrogenNitrogen:Beryllium nitride: Beryllium nitride is used in making heat-resistant ceramics.	
+BerylliumChlorineChlorine:Beryllium chloride:Beryllium chloride can be used to make pure beryllium, and also to speed up other reactions.
+BerylliumFluorineFluorine:Beryllium fluoride:Beryllium fluoride is used most often to make metallic beryllium, and also in some biochemistry.	
+BerylliumHydrogenHydrogen:Beryllium hydride:Beryllium hydride is used in rocket fuel.
+BerylliumOxygen:Beryllium Oxide:Beryllium oxide is an electrical insulator and is also used in rocket engines.
+BerylliumSulfur:Beryllium Sulfide:
+BoronBoronChlorineChlorineChlorineChlorine:Diboron tetrafluoride
+BoronFluorineFluorineFluorine:Boron trifluoride:Boron trifluoride is used in the production of polyethers, which are kinds of plastic foam.
+BoronBoronHydrogenHydrogenHydrogenHydrogenHydrogenHydrogen:Diborane:Diborane historically has been used as a rocket propellant, and in the production of electronics.
+BoronBoronOxygenOxygenOxygen:Boron trioxide:Boron Trioxide is most often used in making glass.
+BoronBoronSulfurSulfurSulfur:
+BoronChlorineChlorineChlorine:Boron trichloride:Boron Trichloride is used in refining metals.
+BoronNitrogen:Boron Nitride:Boron nitride is used in some cosmetics, paints, dental cements.
+CalciumCalciumCalciumNitrogenNitrogen:Calcium Dinitride:
+CalciumChlorineChlorine:Calcium chloride:Calcium chloride has been used for de-icing roads, and also as a food additive.
+CalciumFluorineFluorine:Calcium difluoride:Calcium fluoride has been used in making windows, lenses, telescopes and other optical components.
+CalciumHydrogenHydrogen:Calcium hydride:Calcium hydride is commonly used as a dessicant. A dessicant is a drying-agent.
+CalciumOxygen:Calcium oxide:Calcium oxide is known commonly as quicklime, and is used in steelmaking.
+CalciumOxygenOxygen:Calcium peroxide:Calcium peroxide is primarily used to enhance extraction of precious metals from ores.
+CalciumSulfur:Calcium sulphide:Calcium sulfide:Calcium sulfide is used in medicine and in hair-removal products.
+CarbonCarbonCarbonOxygenOxygen:Carbon suboxide:
+CarbonChlorineChlorineChlorineChlorine:Carbon tetrafluoride:Carbon tetrafluoride has historically been used as a dry cleaning solvent, and also in lava lamps.
+CarbonFluorineFluorineFluorineFluorine:Carbon tetrafluoride:Carbon tetrafluoride is used as a refrigerant
+CarbonOxygen:Carbon monoxide:Carbon monoxide is a colourless and dangerous gas. It has had many uses in medicine and the chemical industry.
+CarbonOxygenOxygen:Carbon dioxide:Carbon dioxide is a colourless gas used in many beverages, and is also in large volumes in our atmosphere.
+CarbonSulfurSulfur:Carbon disulfide:Carbon disulfide is used an in insectiside of grains, and as a soil disinfectant against insects.
+ChlorineChlorineChlorineChlorineChlorinePhosphorus:Phosphorus pentachloride:Phosphorus pentachloride is quite dangerous, but very useful in a variety of chemical reactions.
+ChlorineChlorineChlorineChlorinePhosphorusPhosphorus:Diphosphorus tetrachloride:
+ChlorineChlorineChlorineChlorineSilicon:Silicon tetrachloride:Silicon tetrachloride is useful in the production of solar panels, a good renewable energy source.
+ChlorineChlorineChlorineChlorineSulfur:Sulfur tetrachloride:
+ChlorineChlorineChlorineNitrogen:Nitrogen trichloride:
+ChlorineChlorineChlorinePhosphorus:Phosphorus trichloride:
+ChlorineChlorineMagnesium:Magnesium chloride:Magnesium chloride has many uses including dust and erosion control, ice control, and medicine.
+ChlorineChlorineOxygen:Oxygen dichloride:
+ChlorineChlorineOxygenOxygenOxygenOxygenOxygenOxygen:Dichlorine hexoxide:
+ChlorineChlorineOxygenOxygenOxygenOxygenOxygenOxygenOxygen:Dichlorine heptoxide:
+ChlorineChlorineSulfur:Sulfur dichloride:
 ChlorineChlorineSulfurSulfur
 ChlorineChlorineSulfurSulfurSulfur
-ChlorineFluorine
-ChlorineFluorineFluorineFluorine
-ChlorineFluorineFluorineFluorineFluorineFluorine
-ChlorineHydrogen
-ChlorineLithium
-ChlorineOxygenOxygen
-ChlorinePotassium
-ChlorineSodium
-FluorineFluorineFluorineFluorineFluorineFluorineFluorineFluorineFluorineFluorineSulfurSulfur
-FluorineFluorineFluorineFluorineFluorineFluorineSulfur
-FluorineFluorineFluorineFluorineFluorinePhosphorus
-FluorineFluorineFluorineFluorineNitrogenNitrogen
-FluorineFluorineFluorineFluorinePhosphorusPhosphorus
-FluorineFluorineFluorineFluorineSilicon
-FluorineFluorineFluorineFluorineSulfur
-FluorineFluorineFluorineNitrogen
-FluorineFluorineFluorinePhosphorus
-FluorineFluorineMagnesium
-FluorineFluorineNitrogenNitrogen
-FluorineFluorineOxygen
-FluorineFluorineSulfur
-FluorineFluorineSulfurSulfur
-FluorineHydrogen
-FluorineLithium
-FluorinePotassium
-FluorineSodium
+ChlorineFluorine:Chlorine fluoride:
+ChlorineFluorineFluorineFluorine:Chlorine trifluoride:
+ChlorineFluorineFluorineFluorineFluorineFluorine:Chlorine pentafluoride:
+ChlorineHydrogen:Hydrochloric acid:Hydrochloric acid is an incredibly useful acid that has been used for production of both organic and inorganic compounds.
+ChlorineLithium:Lithium Chloride:
+ChlorineOxygenOxygen:Chlorine dioxide:
+ChlorinePotassium:Potassium chloride:
+ChlorineSodium:Sodium chloride:Common table salt.
+FluorineFluorineFluorineFluorineFluorineFluorineSulfur:Sulfur hexafluoride:
+FluorineFluorineFluorineFluorineFluorinePhosphorus:Phosphorus pentafluoride:
+FluorineFluorineFluorineFluorineNitrogenNitrogen:Nitrogen tetrafluoride:
+FluorineFluorineFluorineFluorinePhosphorusPhosphorus:Phosphorus tetrafluoride:
+FluorineFluorineFluorineFluorineSilicon:Silicon tetrafluoride:This is a common material used in the production of certain fertilizers.
+FluorineFluorineFluorineFluorineSulfur:Sulfur tetrafluoride:
+FluorineFluorineFluorineNitrogen:Nitrogen trifluoride:Nitrogen fluoride is a greenhouse gas that has also seen use in some chemical lasers.
+FluorineFluorineFluorinePhosphorus:Phosphorus trifluoride:A very toxic gas.
+FluorineFluorineMagnesium:Magnesium fluoride:This chemical has seen a lot of use in optics such as windows, lenses and prisms.
+FluorineFluorineNitrogenNitrogen:Dinitrogen difluoride:
+FluorineFluorineOxygen:Oxygen difluoride:Oxygen difluoride is a strong oxidising agent, which has made it suitable for use as fuel in jet propulsion systems.
+FluorineFluorineSulfur:Sulfur difluoride:
+FluorineFluorineSulfurSulfur:Disulfur difluoride:
+FluorineHydrogen:Hydrofluoric acid:A common acid, used commonly to speed up other chemical proccesses in refinerires.
+FluorineLithium:Lithium fluoride:Lithium fluoride is used often in radiation detectors. It can also occur naturally in the extremely rare mineral griceite.
+FluorinePotassium:Potassium fluoride:
+FluorineSodium:Sodium fluoride:Sodium fluoride is an inorganic compound used commonly in medicine.
 HydrogenHydrogenHydrogenHydrogenHydrogenHydrogenSiliconSilicon:Disilicon hexahydride:Reacts violently with oxidizers and halogens. May form explosive mixtures with air
 HydrogenHydrogenHydrogenHydrogenNitrogenNitrogen:Hydrazine:Exhibit antidepressant properties
 HydrogenHydrogenHydrogenHydrogenSilicon:Silane:Used as a precursor to elemental silicon in the semiconductor industry
