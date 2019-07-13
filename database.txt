@@ -99,7 +99,7 @@ NitrogenOxygenOxygen:Nitrogen dioxide:Used in manufacturing of chemical explosiv
 OxygenOxygenOxygenSulfur:Sulphur trioxide:An essential reagent in sulfonation reactions. These processes afford detergents, dyes, and pharmaceuticals
 OxygenOxygenPotassium:Potassium superoxide:Used in canisters for rebreathers for fire fighting and mine rescue work
 OxygenOxygenPotassiumPotassium:Dipotassium peroxide:
-OxygenOxygenSilicon:Silicon oxide:Used to production of concrete
+OxygenOxygenSilicon:Silicon oxide:Used to production of concrete, and a common component of quartz.
 OxygenOxygenSodium:Sodium Dioxide:
 OxygenOxygenSodiumSodium:Sodium peroxide:Used to bleach wood pulp for the production of paper and textiles
 OxygenOxygenSulfur:Sulphur dioxide:Sometimes used as a preservative for dried apricots, dried figs, and other dried fruits
@@ -122,10 +122,23 @@ SodiumSodiumSulfurSulfurSulfurSulfur:Disodium tetrasulphide:
 SodiumSodiumSulfurSulfurSulfurSulfurSulfur:Disodium pentasulphide:
 SodiumSodiumSulfurSulfurSulfurSulfurSulfurSulfur:Sodium hexasulphide:
 HydrogenHydrogenOxygenOxygenOxygenOxygenSulfur:Sulfuric acid:
-CalciumCarbonOxygenOxygenOxygen:Calcium carbonate:
+CalciumCarbonOxygenOxygenOxygen:Calcium carbonate:Commonly known as limestone.
 CarbonHydrogenHydrogenOxygenOxygenOxygenOxygen:Carbonic acid:
 HydrogenHydrogenHydrogenOxygenOxygenOxygenOxygenPhosphorus:Phosphoric acid:
 CarbonHydrogenOxygenOxygenOxygenSodium:Sodium bicarbonate:Common baking soda.
 CarbonHydrogenHydrogenHydrogenHydrogen:Methane:A common greenhouse gas, which is more than 10x more effective at keeping heat in than carbon dioxide.
 CarbonHydrogenHydrogenHydrogenHydrogenOxygen:Methanol:A common cleaning alcohol.
 CarbonHydrogenHydrogenHydrogenHydrogenHydrogenHydrogenOxygen:Ethanol:Used in alcoholic beverages.
+HydrogenOxygenSodium:Sodium Hydroxide:Commonly known as lye.
+CalciumHydrogenHydrogenOxygenOxygen:Calcium hydroxide:
+HydrogenHydrogenOxygenOxygenMagnesium:Magnesium hydroxide:
+HydrogenHydrogenOxygenOxygen:Hydrogen Peroxide:Used commonly as a bleach.
+ChlorineOxygenSodium:Sodium hypochlorite:Used commonly in bleach.
+BoronOxygenOxygenOxygenSodium:Sodium perborate:Used commonly in bleach.
+OxygenOxygenOxygenPhosphorusSodiumSodiumSodium:Sodium phosphate:
+CarbonChlorineChlorineHydrogenHydrogen:Dichloromethane:
+OxygenOxygen:Oxygen gas:Oxygen gas is the most important chemical in air.
+ChlorineChlorine:Chlorine gas:Chlorine gas is very toxic.
+FluorineFluorine:Fluorine gas:
+NitrogenNitrogen:Nitrogen gas:
+CarbonCarbonHydrogenHydrogenOxygenOxygenOxygenOxygen:Oxalic acid:Rust remover, common cleaner.
