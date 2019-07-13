@@ -79,7 +79,10 @@ menubuttonrect.y = 30
 backbuttonrect.y = 650
 
 #text
-font = pygame.font.Font('freesansbold.ttf', 20)
+font = pygame.font.Font('freesansbold.ttf', 13)
+fontbig = pygame.font.Font('freesansbold.ttf', 20)
+fonthuge = pygame.font.Font('freesansbold.ttf', 30)
+
 element_name_text = "Press Combine to see if you've made a compound"
 element_text_obj = font.render(element_name_text, True, black, white)
 element_text_rect = element_text_obj.get_rect()
@@ -89,9 +92,6 @@ element_text_rect.x = 550
 element_text_rect.y = 45
 
 #molecule description
-font = pygame.font.Font('freesansbold.ttf', 13)
-fontbig = pygame.font.Font('freesansbold.ttf', 20)
-
 element_desc_text = ""
 element_desc_obj = font.render(element_desc_text, True, black, white)
 element_desc_rect = element_desc_obj.get_rect()
@@ -99,6 +99,14 @@ element_desc_rect = element_desc_obj.get_rect()
 #molecule description loc
 element_desc_rect.x = 550
 element_desc_rect.y = 95
+
+#element box title
+element_box_title_obj = fonthuge.render("ELEMENTS!", True, black, white)
+element_box_title_rect = element_box_title_obj.get_rect()
+
+#locs
+element_box_title_rect.x = 155
+element_box_title_rect.y = 30
 
 #drawing the rectangles needed, atom selection screen and place screen
 selection_rect = pygame.Rect(0, 0, 525, 719)
@@ -181,7 +189,7 @@ def is_in_database(atom_combination):
         mol_name, mol_desc = COMBI_DESC[atom_sorted]
     return (atom_sorted in DATABASE, mol_name, mol_desc)
 
-def setup_bg():
+def setup_bg(title=True):
     # draw background image
     bg_image = pygame.image.load("assets/bg.png")
     img_w, img_h = bg_image.get_width(), bg_image.get_height()
@@ -190,14 +198,15 @@ def setup_bg():
         screen.blit(bg_image, (x, y))
 
     # draw title
-    title_font = pygame.font.Font('freesansbold.ttf', 50)
-    title_obj = title_font.render("Chemical Creator", True, title_color)
-    title_rect = title_obj.get_rect(center=(width/2, 100))
-    screen.blit(title_obj, title_rect)
+    if(title):
+        title_font = pygame.font.Font('freesansbold.ttf', 50)
+        title_obj = title_font.render("Chemical Creator", True, title_color)
+        title_rect = title_obj.get_rect(center=(width/2, 100))
+        screen.blit(title_obj, title_rect)
 
-    line_start = title_rect.left, title_rect.top + title_rect.height + 3
-    line_end = title_rect.left + title_rect.width, title_rect.top + title_rect.height + 3
-    pygame.draw.line(screen, title_color, line_start, line_end, 1)
+        line_start = title_rect.left, title_rect.top + title_rect.height + 3
+        line_end = title_rect.left + title_rect.width, title_rect.top + title_rect.height + 3
+        pygame.draw.line(screen, title_color, line_start, line_end, 1)
 
 while 1:
     while game_state == 0:
@@ -294,6 +303,7 @@ while 1:
                     element_desc_text = ""
                 
                 if(menubuttonrect.collidepoint(pos)):
+                    element_name_text = "Press Combine to see if you've made a compound"
                     simulation_atoms = []
                     game_state = 0
                     
@@ -308,6 +318,8 @@ while 1:
         
         #re-drawring background
         screen.fill(white)    
+        
+        screen.blit(element_box_title_obj, element_box_title_rect)
         
         #drawring #needs to be from the bottom up 
         pygame.draw.rect(screen, black, selection_rect, 2)
@@ -382,11 +394,11 @@ while 1:
     f = open("saves/madeelements.txt", "r+")
     made_list = f.readlines()
     txt_obj_list = []
-    start_y = 10
+    start_y = 25
     
     for compound in made_list:
         compound = compound.strip()
-        temp_txt_obj = fontbig.render(compound, True, black, white)
+        temp_txt_obj = fontbig.render('-' + compound, True, black, white)
         temp_rect = temp_txt_obj.get_rect()
         temp_rect.x = 560
         temp_rect.y = start_y
@@ -408,6 +420,8 @@ while 1:
                     game_state = 0
             
         screen.fill(white)
+        
+        setup_bg(False)
         
         for compound in txt_obj_list:
             screen.blit(compound[0], compound[1])
