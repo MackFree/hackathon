@@ -1,5 +1,5 @@
-Phosphorus Hydrogen Hydrogen Hydrogen
-Phosphorus Phosphorus Hydrogen Hydrogen Hydrogen Hydrogen 
+Hydrogen Hydrogen Hydrogen Phosphorus
+Hydrogen Hydrogen Phosphorus Phosphorus Phosphorus Phosphorus
 Phosphorus Fluorine Fluorine Fluorine
 Phosphorus Fluorine Fluorine Fluorine Fluorine Fluorine
 Phosphorus Phosphorus Fluorine Fluorine Fluorine Fluorine
