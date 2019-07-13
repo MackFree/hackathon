@@ -1,12 +1,6 @@
 Aluminium Hydrogen Hydrogen Hydrogen
-Aluminium F3
-Aluminium Cl3
-Aluminium 2O3
-Aluminium 2S3
-Aluminium 2Se3
-Aluminium 2Te3
-Aluminium N
-Aluminium (NO3)3.9H2O
-Aluminium 2(SO4)3.18H2O
-[Aluminium (OH2)6]Br3
-[Aluminium (OH2)6]Cl3
+Aluminium Fluorine Fluorine
+Aluminium Chlorine Chlorine Chlorine
+Aluminium Aluminium Oxygen Oxygen Oxygen
+Aluminium Aluminium Sulfur Sulfur Sulfur
+Aluminium Nitrogen
