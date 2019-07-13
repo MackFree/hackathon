@@ -1,0 +1,17 @@
+Sodium hydride: NaH
+Sodium fluoride: NaF
+Sodium chloride: NaCl
+Sodium iodide: NaI
+Disodium oxide: Na2O
+Sodium peroxide: Na2O2
+Sodium superoxide: NaO2
+Disodium sulphide: Na2S
+Disodium persulphide: Na2S2
+Disodium trisulphide: Na2S3
+Disodium hexasulphide: Na2S6
+Disodium tetrasulphide: Na2S4
+Disodium pentasulphide: Na2S5
+Disodium sulphide pentahydrate: Na2S.5H2O
+Disodium sulphide nonahydrate: Na2S.9H2O
+Disodium selenide: Na2Se
+Disodium telluride: Na2Te

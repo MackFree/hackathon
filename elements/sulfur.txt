@@ -1,0 +1,15 @@
+Sulphur difluoride: SF2
+Disulphur difluoride: FSSF
+Sulphur hexafluoride: SF6
+Sulphur tetrafluoride: SF4
+Disulphur decafluoride: S2F10
+Sulphur difluoride sulphide: SSF2
+Sulphur dichloride: SCl2
+Disulphur dichloride: ClSSCl
+Trisulphur dichloride: S3Cl2
+Sulphur tetrachloride: SCl4
+Disulphur diiodide: S2I2
+Sulphur dioxide: SO2
+Sulphur trioxide: SO3
+Disulphur oxide: S2O
+Tetrasulphur tetranitride: S4N4

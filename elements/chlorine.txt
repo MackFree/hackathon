@@ -1,0 +1,7 @@
+Chlorine fluoride: ClF
+Chlorine trifluoride: ClF3
+Chlorine pentafluoride: ClF5
+Chlorine dioxide: ClO2
+Dichlorine oxide: Cl2O
+Dichlorine hexoxide: Cl2O6
+Dichlorine heptoxide: Cl2O7

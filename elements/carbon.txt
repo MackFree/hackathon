@@ -1,0 +1,9 @@
+Carbon tetrafluoride: CF4
+Carbon tetrachloride: CCl4
+Carbon tetrabromide: CBr4
+Carbon tetraiodide: CI4
+Carbon dioxide: CO2
+Carbon monoxide: CO
+Carbon suboxide: C3O2
+Carbon disulphide: CS2
+Carbon diselenide: CSe2

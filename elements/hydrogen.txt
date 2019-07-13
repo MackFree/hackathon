@@ -1,0 +1,11 @@
+Hydrogen fluoride: HF
+Hydrogen chloride: HCl
+Hydrogen bromide: HBr
+Hydrogen iodide: HI
+Water: H2O
+Hydrogen persulphide: H2S2
+Hydrogen sulphide: H2S
+Hydrogen selenide: H2Se
+Hydrogen telluride: H2Te
+Ammonia: NH3
+Hydrazine: H2NNH2

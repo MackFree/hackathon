@@ -1,0 +1,13 @@
+Magnesium dihydride: MgH2
+Magnesium difluoride: MgF2
+Magnesium dichloride: MgCl2
+Magnesium diiodide: MgI2
+Magnesium oxide: MgO
+Magnesium peroxide: MgO2
+Magnesium sulphide: MgS
+Magnesium selenide: MgSe
+Magnesium telluride: MgTe
+Trimagnesium dinitride: Mg3N2
+Magnesium dibromide hexahydrate: MgBr2.6H2O
+Magnesium nitrate hexahydrate: Mg(NO3)2.6H2O
+Magnesium sulphate heptahydrate: MgSO4.7H2O
