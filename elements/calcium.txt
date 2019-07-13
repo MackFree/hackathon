@@ -1,12 +1,7 @@
-Calcium dihydride: CaH2
-Calcium difluoride: CaF2
-Calcium dichloride: CaCl2
-Calcium diiodide: CaI2
-Calcium oxide: CaO
-Calcium peroxide: CaO2
-Calcium sulphide: CaS
-Calcium selenide: CaSe
-Calcium telluride: CaTe
-Tricalcium dinitride: Ca3N2
-Calcium dibromide hexahydrate: CaBr2.6H2O
-Calcium dichloride hexahydrate: CaCl2.6H2O
+Calcium Hydrogen Hydrogen
+Calcium Fluorine Fluorine
+Calcium Chlorine Chlorine
+Calcium Oxygen
+Calcium Oxygen Oxygen
+Calcium Sulfur
+Calcium Calcium Calcium Nitrogen Nitrogen

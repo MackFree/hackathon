@@ -6,5 +6,12 @@ Phosphorus Phosphorus Fluorine Fluorine Fluorine Fluorine
 Phosphorus Chlorine Chlorine Chlorine
 Phosphorus Chlorine Chlorine Chlorine Chlorine Chlorine
 Phosphorus Phosphorus Chlorine Chlorine Chlorine Chlorine
+Phosphorus Phosphorus Phosphorus Phosphorus Oxygen Oxygen Oxygen Oxygen Oxygen Oxygen Oxygen Oxygen Oxygen Oxygen 
+Phosphorus Phosphorus Phosphorus Phosphorus Oxygen Oxygen Oxygen Oxygen Oxygen Oxygen 
 Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur
+Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur
+Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur 
+Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur 
+Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur Sulfur Sulfur 
+Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur Sulfur
 Phosphorus Phosphorus Phosphorus Phosphorus Sulfur Sulfur Sulfur Sulfur
