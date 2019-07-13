@@ -80,7 +80,7 @@ HydrogenHydrogenPhosphorusPhosphorusPhosphorusPhosphorus
 HydrogenHydrogenSulfur
 HydrogenHydrogenSulfurSulfur
 HydrogenLithium
-HydrogenOxygenOxygen
+HydrogenHydrogenOxygen
 HydrogenPotassium
 HydrogenSodium
 LithiumLithiumOxygenOxygen
