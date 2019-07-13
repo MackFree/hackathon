@@ -1,6 +1,14 @@
-Aluminium Hydrogen Hydrogen Hydrogen
-Aluminium Fluorine Fluorine
-Aluminium Chlorine Chlorine Chlorine
-Aluminium Aluminium Oxygen Oxygen Oxygen
-Aluminium Aluminium Sulfur Sulfur Sulfur
-Aluminium Nitrogen
+Aluminium trihydride: AlH3
+Aluminium trifluoride: AlF3
+Dialuminium hexachloride: AlCl3
+Dialuminium hexabromide: [AlBr3]2
+Dialuminum hexaiodide: [AlI3]2
+Aluminium oxide (α) : Al2O3
+Dialuminium trisulphide: Al2S3
+Dialuminium triselenide: Al2Se3
+Dialuminium tritelluride: Al2Te3
+Aluminium nitride: AlN
+Aluminium trinitrate nonahydrate: Al(NO3)3.9H2O
+Dialuminium trisulphate octadecahydrate: Al2(SO4)3.18H2O
+Hexaaquoaluminium tribromide: [Al(OH2)6]Br3
+Hexaaquoaluminium trichloride: [Al(OH2)6]Cl3

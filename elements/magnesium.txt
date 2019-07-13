@@ -1,7 +1,0 @@
-Magnesium Hydrogen Hydrogen
-Magnesium Fluorine Fluorine
-Magnesium Chlorine Chlorine
-Magnesium Oxygen
-Magnesium Oxygen Oxygen
-Magnesium Sulfur
-Magnesium Magnesium Magnesium Nitrogen Nitrogen

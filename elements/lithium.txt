@@ -1,9 +1,14 @@
-Hydrogen Lithium
-Fluorine Lithium
-Chlorine Lithium
-Lithium Oxygen Oxygen
-Lithium Lithium Oxygen Oxygen
-Lithium Oxygen Oxygen
-Lithium Sulfur Sulfur
-Lithium Nitrogen Nitrogen
-
+Lithium hydride: LiH
+Lithium fluoride: LiF
+Lithium chloride: LiCl
+Lithium chloride monohydrate: LiCl.H2O
+Lithium iodide: LiI
+Dilithium oxide: Li2O
+Dilithium peroxide: Li2O2
+Lithium superoxide: LiO2
+Lithium sulphide: Li2S
+Dilithium selenide: Li2Se
+Dilithium telluride: Li2Te
+Trilithium nitride: Li3N
+Lithium iodide trihydrate: LiI.3H2O
+Lithium hydroxide monohydrate: LiOH.H2O
