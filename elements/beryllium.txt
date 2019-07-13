@@ -1,10 +1,6 @@
-Beryllium dihydride: BeH2
-Beryllium difluoride: BeF2
-Beryllium dichloride: BeCl2
-Beryllium dibromide: BeBr2
-Beryllium diiodide: BeI2
-Beryllia: BeO
-Beryllium sulphide: BeS
-Beryllium selenide: BeSe
-Beryllium telluride: BeTe
-Triberyllium dinitride: Be3N2
+Beryllium Hydrogen Hydrogen
+Beryllium Fluorine Fluorine
+Beryllium Chlorine Chlorine
+Beryllium Oxygen
+Beryllium Sulfur
+Beryllium Beryllium Beryllium Nitrogen Nitrogen
