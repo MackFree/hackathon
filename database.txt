@@ -41,8 +41,8 @@ ChlorineChlorineOxygen:Oxygen dichloride:
 ChlorineChlorineOxygenOxygenOxygenOxygenOxygenOxygen:Dichlorine hexoxide:
 ChlorineChlorineOxygenOxygenOxygenOxygenOxygenOxygenOxygen:Dichlorine heptoxide:
 ChlorineChlorineSulfur:Sulfur dichloride:
-ChlorineChlorineSulfurSulfur
-ChlorineChlorineSulfurSulfurSulfur
+ChlorineChlorineSulfurSulfur:Disulfur dichloride:
+ChlorineChlorineSulfurSulfurSulfur:Trisulfur dichloride:
 ChlorineFluorine:Chlorine fluoride:
 ChlorineFluorineFluorineFluorine:Chlorine trifluoride:
 ChlorineFluorineFluorineFluorineFluorineFluorine:Chlorine pentafluoride:
@@ -121,3 +121,11 @@ SodiumSodiumSulfurSulfurSulfur:Disodium trisulphide:
 SodiumSodiumSulfurSulfurSulfurSulfur:Disodium tetrasulphide:
 SodiumSodiumSulfurSulfurSulfurSulfurSulfur:Disodium pentasulphide:
 SodiumSodiumSulfurSulfurSulfurSulfurSulfurSulfur:Sodium hexasulphide:
+HydrogenHydrogenOxygenOxygenOxygenOxygenSulfur:Sulfuric acid:
+CalciumCarbonOxygenOxygenOxygen:Calcium carbonate:
+CarbonHydrogenHydrogenOxygenOxygenOxygenOxygen:Carbonic acid:
+HydrogenHydrogenHydrogenOxygenOxygenOxygenOxygenPhosphorus:Phosphoric acid:
+CarbonHydrogenOxygenOxygenOxygenSodium:Sodium bicarbonate:Common baking soda.
+CarbonHydrogenHydrogenHydrogenHydrogen:Methane:A common greenhouse gas, which is more than 10x more effective at keeping heat in than carbon dioxide.
+CarbonHydrogenHydrogenHydrogenHydrogenOxygen:Methanol:A common cleaning alcohol.
+CarbonHydrogenHydrogenHydrogenHydrogenHydrogenHydrogenOxygen:Ethanol:Used in alcoholic beverages.
