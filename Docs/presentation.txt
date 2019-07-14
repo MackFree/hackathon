@@ -16,20 +16,26 @@ would not have access to, or would be too dangers to handle.
 Here you see the information page for the software, explaning how to use it and what it does.
 Chemical Creator allows you to drag and drop elements to create new ones, as we will now demonstrate
 
+
+---------------------------------------------------------------------------------------------------------
+
 {Back To menu -> Start (Game screen)}
 
-Create silicon + 4x Hydrogen
+Create silicon + 4x Hydrogen (Seline)
 Show Right Click info
 
 Put Magnesesium + berrilum, shows not a compound, and shows clear
 
-litium + 2x oxygen
+litium + 2x oxygen (Litium Oxide)
 
 {Quit to menu -> my compounds}
 Show, back to start and create 
-boron + 3x fluorine
+boron + 3x fluorine (Boron Tri-fluoride)
+
 {back to my compounds to show it has updated}
 (Mention that it saves the compounds made to a file so it works after starting and stopping)
 
 
+This software is designed to help in school chemisty classrooms, and would be a useful tool 
+for educating children about molecules
 
