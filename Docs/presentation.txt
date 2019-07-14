@@ -1,5 +1,35 @@
 Show saved chemicals update
-big chemical to show it can handle it
+big chemical to show it can handle it - silicon + 4x hydrogen, boron + 3x fluorine, water, carbon + 4x hydrogen, lithium + 2x oxygen <--- some interesting molecules that we could demonstrate
 Demonstrate all features (Clear combine, back to menu ect)
 
 How it fits the brief
+
+
+The Department of Specific Sciency Matters (DSSM) science education division wants to 
+turn every child in the country into a scientist, and the software we have developed helps
+them in this goal. We have created "Chemical Creator", an interactive and educational chemistry
+set for the use in schools. Chemical Creator allows children to play with elements that they
+would not have access to, or would be too dangers to handle.
+
+{Go to help page}
+
+Here you see the information page for the software, explaning how to use it and what it does.
+Chemical Creator allows you to drag and drop elements to create new ones, as we will now demonstrate
+
+{Back To menu -> Start (Game screen)}
+
+Create silicon + 4x Hydrogen
+Show Right Click info
+
+Put Magnesesium + berrilum, shows not a compound, and shows clear
+
+litium + 2x oxygen
+
+{Quit to menu -> my compounds}
+Show, back to start and create 
+boron + 3x fluorine
+{back to my compounds to show it has updated}
+(Mention that it saves the compounds made to a file so it works after starting and stopping)
+
+
+
